@@ -185,5 +185,55 @@
         "a": "Safe: yes, genuinely. Easy: easier than you’d think, harder than Italy. Comfortable: the guesthouses I use are all en-suite, most with a view; the roads to the north are slow and winding. I won’t sugarcoat anything — ask me directly."
       }
     ]
+  },
+  "quotes": {
+    "kicker": "— 05 · What guests say",
+    "list": [
+      {
+        "q": "Arjes changed how we travel. She knows the country the way you know your own neighbourhood, and she introduced us to it like a friend would.",
+        "n": "Clara & Jan",
+        "p": "Berlin · 10 days, Coast & Alps"
+      },
+      {
+        "q": "We’ve done private guides in nine countries. This was the most personal, least packaged trip we’ve ever taken. Albania was almost beside the point.",
+        "n": "The Ransoms",
+        "p": "New York · 14 days, end-to-end"
+      },
+      {
+        "q": "Booked an afternoon in Tirana, stayed in touch for two years, came back for a fortnight. There’s a reason.",
+        "n": "Meltem A.",
+        "p": "İstanbul · multiple trips"
+      }
+    ]
+  },
+  "map": {
+    "kicker": "— 06 · The country",
+    "title1": "A small country,",
+    "title2": "many journeys.",
+    "body": "Albania is roughly the size of Maryland — you can drive its length in a day. But the difference between the Alps in the north and the Greek border in the south is the difference between two countries. Places I return to, again and again:"
+  },
+  "inquire": {
+    "kicker": "— 08 · Start a conversation",
+    "title1": "Tell me what",
+    "title2": "you're curious about.",
+    "lede": "I answer every message myself, usually within a day. No forms longer than this one.",
+    "successTitle": "Message sent successfully!",
+    "successBody": "Thanks for reaching out. I'll get back to you as soon as possible.",
+    "sendAnother": "Send another message",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "dates": "Rough dates",
+    "datesPlaceholder": "E.g. first two weeks of June",
+    "groupSize": "Group size",
+    "groupSizePlaceholder": "2 adults, 1 teenager",
+    "message": "Tell me a little",
+    "messagePlaceholder": "Even one sentence is enough. Somewhere you've seen a photo of, something you want to avoid, a food you love.",
+    "errorMsg": "Oops! There was a problem submitting your form. Please try again or email me directly.",
+    "sending": "Sending...",
+    "send": "Send",
+    "orEmail": "Or email me directly —",
+    "orCall": "Call / WhatsApp —"
   }
 }

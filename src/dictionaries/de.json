@@ -185,5 +185,55 @@
         "a": "Sicher: ja, absolut. Einfach: einfacher als man denkt, schwieriger als Italien. Komfortabel: Die Gästehäuser, die ich nutze, haben alle eigene Bäder, die meisten mit Aussicht; die Straßen im Norden sind langsam und kurvenreich. Ich beschönige nichts — fragen Sie mich einfach direkt."
       }
     ]
+  },
+  "quotes": {
+    "kicker": "— 05 · Was Gäste sagen",
+    "list": [
+      {
+        "q": "Arjes hat unsere Art zu reisen verändert. Sie kennt das Land so, wie man seine eigene Nachbarschaft kennt, und hat es uns gezeigt, wie es ein Freund tun würde.",
+        "n": "Clara & Jan",
+        "p": "Berlin · 10 Tage, Küste & Alpen"
+      },
+      {
+        "q": "Wir hatten private Reiseleiter in neun Ländern. Dies war die persönlichste, am wenigsten vorgefertigte Reise, die wir je gemacht haben. Albanien wurde fast zur Nebensache.",
+        "n": "Die Ransoms",
+        "p": "New York · 14 Tage, komplett"
+      },
+      {
+        "q": "Einen Nachmittag in Tirana gebucht, zwei Jahre lang in Kontakt geblieben, für zwei Wochen zurückgekehrt. Es gibt einen Grund dafür.",
+        "n": "Meltem A.",
+        "p": "Istanbul · mehrere Reisen"
+      }
+    ]
+  },
+  "map": {
+    "kicker": "— 06 · Das Land",
+    "title1": "Ein kleines Land,",
+    "title2": "viele Reisen.",
+    "body": "Albanien ist etwa so groß wie Brandenburg — man kann es an einem Tag durchqueren. Aber der Unterschied zwischen den Alpen im Norden und der griechischen Grenze im Süden ist wie der Unterschied zwischen zwei Ländern. Orte, an die ich immer wieder zurückkehre:"
+  },
+  "inquire": {
+    "kicker": "— 08 · Lass uns reden",
+    "title1": "Erzählen Sie mir,",
+    "title2": "was Sie interessiert.",
+    "lede": "Ich beantworte jede Nachricht persönlich, meistens innerhalb eines Tages. Keine Formulare, die länger sind als dieses hier.",
+    "successTitle": "Nachricht erfolgreich gesendet!",
+    "successBody": "Danke für Ihre Anfrage. Ich melde mich so schnell wie möglich zurück.",
+    "sendAnother": "Weitere Nachricht senden",
+    "name": "Name",
+    "namePlaceholder": "Ihr Name",
+    "email": "E-Mail",
+    "emailPlaceholder": "sie@beispiel.de",
+    "dates": "Ungefähres Datum",
+    "datesPlaceholder": "Z.B. die ersten zwei Juniwochen",
+    "groupSize": "Gruppengröße",
+    "groupSizePlaceholder": "2 Erwachsene, 1 Teenager",
+    "message": "Erzählen Sie ein wenig",
+    "messagePlaceholder": "Ein Satz reicht schon. Ein Ort, den Sie auf einem Foto gesehen haben, etwas, das Sie vermeiden möchten, Ihr Lieblingsessen.",
+    "errorMsg": "Hoppla! Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie mir direkt.",
+    "sending": "Wird gesendet...",
+    "send": "Senden",
+    "orEmail": "Oder schreiben Sie mir direkt —",
+    "orCall": "Anruf / WhatsApp —"
   }
 }

@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const QUOTES = [
   {
@@ -20,13 +21,15 @@ const QUOTES = [
 ];
 
 export function Testimonials() {
+  const t = useTranslation();
+  const quotesList = t.quotes?.list || QUOTES;
   return (
     <section className="quotes">
       <div className="quotes-head">
-        <div className="mono section-kicker">— 05 &nbsp;·&nbsp; What guests say</div>
+        <div className="mono section-kicker">{t.quotes?.kicker || '— 05 · What guests say'}</div>
       </div>
       <div className="quotes-grid">
-        {QUOTES.map((t, i) => (
+        {quotesList.map((t: any, i: number) => (
           <figure className="quote" key={i}>
             <span className="quote-mark display">&ldquo;</span>
             <blockquote className="quote-body">{t.q}</blockquote>
@@ -62,19 +65,17 @@ const PLACES = [
 
 export function MapSection() {
   const [hover, setHover] = React.useState<string | null>(null);
+  const t = useTranslation();
   return (
     <section className="map" id="map">
       <div className="map-grid">
         <div className="map-col-l">
-          <div className="mono section-kicker">— 06 &nbsp;·&nbsp; The country</div>
+          <div className="mono section-kicker">{t.map?.kicker || '— 06 · The country'}</div>
           <h2 className="map-title display">
-            A small country, <em>many journeys.</em>
+            {t.map?.title1 || 'A small country,'} <em>{t.map?.title2 || 'many journeys.'}</em>
           </h2>
           <p className="map-body">
-            Albania is roughly the size of Maryland — you can drive its length in
-            a day. But the difference between the Alps in the north and the Greek
-            border in the south is the difference between two countries. Places
-            I return to, again and again:
+            {t.map?.body || 'Albania is roughly the size of Maryland — you can drive its length in a day. But the difference between the Alps in the north and the Greek border in the south is the difference between two countries. Places I return to, again and again:'}
           </p>
           <ul className="map-places mono">
             {PLACES.map(p => (
