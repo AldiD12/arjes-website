@@ -48,7 +48,7 @@ export function About() {
             <img src="/photos/valbone.jpeg" alt="Arjes with guests in the Albanian Alps" />
             <figcaption className="mono">
               <span>{t.about?.fig01 || 'Fig. 01'}</span>
-              <span>{t.about?.fig01Caption || \"With guests above Valbonë, autumn '24\"}</span>
+              <span>{t.about?.fig01Caption || "With guests above Valbonë, autumn '24"}</span>
             </figcaption>
           </figure>
           <figure className="about-portrait-sm">

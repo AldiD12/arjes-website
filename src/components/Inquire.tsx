@@ -49,7 +49,7 @@ export function Inquire() {
         {status === "success" ? (
           <div className="inquire-success" style={{ padding: '2rem 0', color: 'white' }}>
             <h3 style={{ fontSize: '1.5rem', marginBottom: '1rem' }}>{t.inquire?.successTitle || 'Message sent successfully!'}</h3>
-            <p>{t.inquire?.successBody || 'Thanks for reaching out. I\\'ll get back to you as soon as possible.'}</p>
+            <p>{t.inquire?.successBody || "Thanks for reaching out. I'll get back to you as soon as possible."}</p>
             <button 
               onClick={() => setStatus("idle")}
               className="btn btn-dark"
@@ -83,7 +83,7 @@ export function Inquire() {
             <label className="inquire-full">
               <span className="mono">{t.inquire?.message || 'Tell me a little'}</span>
               <textarea name="message" rows={4} required
-                placeholder={t.inquire?.messagePlaceholder || 'Even one sentence is enough. Somewhere you\\'ve seen a photo of, something you want to avoid, a food you love.'}
+                placeholder={t.inquire?.messagePlaceholder || "Even one sentence is enough. Somewhere you've seen a photo of, something you want to avoid, a food you love."}
               />
             </label>
             

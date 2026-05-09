@@ -79,7 +79,7 @@ export function Journeys() {
           {t.journeys?.title1 || 'From an afternoon'} <em>{t.journeys?.title2 || 'to a fortnight.'}</em>
         </h2>
         <p className="journeys-sub">
-          {t.journeys?.sub || 'Every trip is private — just you, your people, and me. No fixed departures, no coach groups. Below are the trips I\\'m asked for most; everything is adjustable.'}
+          {t.journeys?.sub || "Every trip is private — just you, your people, and me. No fixed departures, no coach groups. Below are the trips I'm asked for most; everything is adjustable."}
         </p>
       </div>
 
