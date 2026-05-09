@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Arjes Home - The Human Authority Edition</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1e3a8a", 
+                        "accent": "#d97706", 
+                        "background-light": "#fafaf9",
+                        "background-dark": "#f5f5f4",
+                        "grid-line": "rgba(30, 58, 138, 0.1)"
+                    },
+                    fontFamily: {
+                        "sans": ["Space Grotesk", "sans-serif"],
+                        "serif": ["Cormorant Garamond", "serif"],
+                        "mono": ["monospace"],
+                    },
+                    borderRadius: { "DEFAULT": "0px", "lg": "0px", "xl": "0px", "full": "9999px" },
+                    backgroundImage: {
+                        'grain': "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.6%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.05%22/%3E%3C/svg%3E')",
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: "Space Grotesk", sans-serif;
+            background-color: #fafaf9;
+            color: #1e3a8a;
+        }
+        .grainy-overlay {
+            position: absolute;
+            inset: 0;
+            background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.6%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%220.4%22/%3E%3C/svg%3E');
+            pointer-events: none;
+            z-index: 20;
+            mix-blend-mode: soft-light;
+        }
+        .text-vertical {
+            writing-mode: vertical-rl;
+            text-orientation: mixed
+        }
+        .fade-in-up {
+            animation: fadeInUp 1s ease-out forwards
+        }
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-background-light text-primary overflow-x-hidden selection:bg-accent selection:text-white">
+<nav class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-6 py-6 md:px-12 bg-white/5 backdrop-blur-sm border-b border-primary/5 text-primary">
+<div class="flex items-center gap-4">
+<span class="font-serif text-3xl tracking-wide italic font-semibold">Arjes.</span>
+</div>
+<div class="hidden md:flex items-center gap-12 font-mono text-xs uppercase tracking-[0.15em] text-primary/80">
+<a class="hover:text-accent transition-colors relative group" href="#">
+                The Dossier
+                <span class="absolute -bottom-2 left-0 w-0 h-[1px] bg-accent transition-all group-hover:w-full"></span>
+</a>
+<a class="hover:text-accent transition-colors relative group" href="#">
+                The Routes
+                <span class="absolute -bottom-2 left-0 w-0 h-[1px] bg-accent transition-all group-hover:w-full"></span>
+</a>
+<a class="hover:text-accent transition-colors relative group" href="#">
+                Inquire
+                <span class="absolute -bottom-2 left-0 w-0 h-[1px] bg-accent transition-all group-hover:w-full"></span>
+</a>
+</div>
+<div class="flex items-center gap-4">
+<div class="hidden md:flex flex-col items-end text-[10px] font-mono leading-tight opacity-70 text-primary">
+<span>TEMP: 26°C DHERMI</span>
+<span>LOC: IONIAN COAST</span>
+</div>
+<button class="md:hidden text-primary">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
+</nav>
+<main class="w-full relative">
+<header class="relative w-full h-[95vh] flex flex-col justify-end pb-24 md:pb-32 px-6 md:px-12 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<div class="grainy-overlay opacity-30"></div>
+<div class="w-full h-full bg-cover bg-center saturate-150 brightness-110 contrast-110" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBTbwpSwckj4UswIciBxoQIKpXln8c2-sha7SwSYAYN71rK1923THPuZ7eQrzz_DnniOExj3de3GdQDjv8BMwVbl6THhi4wlNZolfDn44PisSi2sMJffXMUks46hx75kdAKPyFQ0TMH4Sh1w00zd8efoYsg3BVFEGQYsxiX-hDydSdCMddghqA8mVvD8NQgAph4Kt5HOQZCaI8nDg8EXinCUEhijkAeWkgOHc2Uo6wL0lUFjPbuVjVkZisJGiapTKlJDYEcc_ZZLu0');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-background-light via-background-light/40 to-transparent z-10"></div>
+</div>
+<div class="absolute top-28 left-0 w-full flex justify-center z-30 pointer-events-none">
+<div class="flex items-center gap-3 px-5 py-2.5 bg-white/80 backdrop-blur-md rounded-full shadow-lg border border-primary/10">
+<span class="w-2 h-2 rounded-full bg-green-500 animate-pulse ring-4 ring-green-100"></span>
+<span class="font-mono text-[10px] uppercase tracking-widest text-primary font-semibold">Live Status: Exploring the Riviera</span>
+</div>
+</div>
+<div class="relative z-20 w-full max-w-7xl mx-auto flex flex-col md:flex-row items-end justify-between gap-12">
+<div class="fade-in-up w-full md:w-2/3">
+<h1 class="font-serif text-6xl md:text-8xl lg:text-[10rem] leading-[0.85] font-bold text-primary tracking-tighter drop-shadow-sm">
+<span class="block text-primary/90">ALBANIA</span>
+<span class="block italic font-light ml-8 md:ml-20 text-accent">REVEALED</span>
+<span class="block text-3xl md:text-4xl lg:text-5xl mt-6 tracking-normal font-normal text-primary/70 font-sans">MEDITERRANEAN SOUL</span>
+</h1>
+</div>
+<div class="w-full md:w-1/3 flex flex-col items-start md:items-end text-left md:text-right gap-8 fade-in-up" style="animation-delay: 0.2s;">
+<p class="font-sans text-base md:text-lg text-primary/80 font-normal max-w-xs leading-relaxed">
+                        The Adriatic as it was meant to be seen. <br/>
+                        Sun, salt, and untold stories.
+                    </p>
+<a class="group flex items-center gap-3 px-8 py-4 bg-primary text-white hover:bg-accent transition-all duration-300 shadow-lg hover:shadow-xl" href="#">
+<span class="text-xs font-mono uppercase tracking-widest font-semibold">Design Your Private Itinerary</span>
+<span class="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_right_alt</span>
+</a>
+</div>
+</div>
+</header>
+<section class="relative py-20 px-6 md:px-12 bg-white border-y border-primary/5">
+<div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-center">
+<div class="w-full md:w-1/3 relative">
+<div class="aspect-[4/5] overflow-hidden shadow-2xl relative">
+<img alt="Arjes Portrait" class="w-full h-full object-cover saturate-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAc5LgurMyr5wPiVLLbWP-7eHiemaUSZwhSNDP3kpvKQiIDmS4DfUPNzidABDrirDKo7ijGYz199h_ZanjfywgvzMKrXGljbUmB5Zv8zauuchTiqnMCETOEsEAZp0Py5IR1d-nZFDo48XWEdASKaLGtSquk-OnBLgUgzwyNZHBXTuTMxu4gk3lfJlZk1gONc4kvHke35vFTfNknZxh40QUPfkEGurpjGuDoRp3Nqcy5ZrOln_pk-WINW2Bpnurs-pXch666wImrfAo"/>
+<div class="absolute bottom-4 left-4 right-4 bg-white/95 backdrop-blur p-4 border border-primary/10 shadow-sm">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-accent text-2xl">verified_user</span>
+<div>
+<p class="font-serif text-lg leading-none text-primary italic font-bold">Arjes</p>
+<p class="font-mono text-[10px] uppercase tracking-widest text-primary/60 mt-1">National Licensed Guide</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="w-full md:w-2/3 space-y-8">
+<h2 class="font-serif text-4xl md:text-6xl text-primary leading-tight">
+                    Meet Your Guide
+                </h2>
+<p class="font-sans text-lg text-primary/70 leading-relaxed font-light max-w-2xl">
+                    I am Arjes, your gateway to the hidden Albania. Born by the Ionian sea and raised in the shadow of the Accursed Mountains, I bridge the gap between the raw, untouched landscapes and the sophisticated traveler. My philosophy is simple: travel should be an editorial experience, curated with the warmth of Albanian hospitality and the precision of high-end design.
+                </p>
+<div class="grid grid-cols-2 gap-8 pt-4">
+<div>
+<h4 class="font-mono text-xs text-accent uppercase tracking-widest mb-2">Specialty</h4>
+<p class="font-serif text-xl text-primary">Cultural Immersion &amp; Hidden History</p>
+</div>
+<div>
+<h4 class="font-mono text-xs text-accent uppercase tracking-widest mb-2">Languages</h4>
+<p class="font-serif text-xl text-primary">English, Italian, Albanian</p>
+</div>
+</div>
+<a class="inline-flex items-center gap-2 text-primary font-mono text-xs uppercase tracking-widest border-b border-primary pb-1 hover:text-accent hover:border-accent transition-colors mt-4" href="#">
+                    Read Full Bio <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+</div>
+</section>
+<section class="relative py-24 md:py-32 px-6 md:px-12 bg-background-light border-b border-primary/5">
+<div class="max-w-7xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+<div class="lg:col-span-3">
+<h2 class="font-serif text-4xl md:text-5xl italic text-primary mb-2">The Mediterranean<br/>Method</h2>
+<div class="w-12 h-[2px] bg-accent mt-6 mb-6"></div>
+<p class="font-mono text-xs text-primary/60 uppercase tracking-widest leading-relaxed">
+                            Slow living.<br/>
+                            Authentic connection.<br/>
+                            Timeless style.
+                        </p>
+</div>
+<div class="lg:col-span-9 grid grid-cols-1 md:grid-cols-3 gap-12 border-l border-primary/10 md:pl-12">
+<div class="group">
+<span class="font-mono text-accent text-xs mb-4 block">01 // THE SAVOIR-FAIRE</span>
+<h3 class="font-sans text-xl font-medium mb-4 text-primary group-hover:text-accent transition-colors">Curated Excellence</h3>
+<p class="font-serif text-lg text-primary/70 leading-relaxed">
+                                Every route, stay, and guide is personally tested. We select only the properties that embody the true spirit of the Mediterranean—effortless, warm, and stunning.
+                            </p>
+</div>
+<div class="group">
+<span class="font-mono text-accent text-xs mb-4 block">02 // THE ACCESS</span>
+<h3 class="font-sans text-xl font-medium mb-4 text-primary group-hover:text-accent transition-colors">Hidden Corridors</h3>
+<p class="font-serif text-lg text-primary/70 leading-relaxed">
+                                We hold keys to the Balkans' most guarded secrets. Private vineyards, unmarked beaches accessible only by boat, and culinary experiences reserved for family.
+                            </p>
+</div>
+<div class="group">
+<span class="font-mono text-accent text-xs mb-4 block">03 // THE PROTOCOL</span>
+<h3 class="font-sans text-xl font-medium mb-4 text-primary group-hover:text-accent transition-colors">Seamless Flow</h3>
+<p class="font-serif text-lg text-primary/70 leading-relaxed">
+                                Your journey is monitored by our operations center. Anticipatory service ensures your path remains clear, letting you soak in the sun without a worry.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-0 border-b border-primary/5 bg-background-light overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-2">
+<div class="relative aspect-square md:aspect-auto md:h-[80vh] group overflow-hidden border-r border-white/50">
+<div class="absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out scale-100 group-hover:scale-105 saturate-100 contrast-100" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDUWYHe1gqPwReQ-Pvc5AmYPnaVp3unPS_bNNrWlfsXokZiLwFjXwhOjCqSfqhQ4qrMGiQ8_pCaiFSJxoyK2pvBonOqCKEb8D2x9V58mKb_E8fKGvkB0SYWIpmLPomkMeQxZdfBAKOg1zzgI7mJNiPlQjlUhZS6q9OCO172r3PqtzJSzTEvEmbwQnoBt9rFmfVCDbN-VQMPxAzKa1HVidatn1lBQU-2ZfnABHB3p0Ilm44vHjqVOFktdBF1zzsbLRn-6KsWEsbpQvI');"></div>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/0 transition-colors duration-500 mix-blend-multiply"></div>
+<div class="absolute top-6 left-6 z-20">
+<span class="font-mono text-[10px] bg-white text-primary px-3 py-1.5 uppercase font-bold tracking-widest shadow-md">Coastal Division</span>
+</div>
+<div class="absolute bottom-0 left-0 w-full p-8 md:p-12 z-20 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 bg-gradient-to-t from-primary/80 to-transparent">
+<h3 class="font-serif text-5xl md:text-6xl text-white italic mb-2 drop-shadow-md">The Riviera</h3>
+<p class="font-mono text-xs text-white/90 uppercase tracking-widest mb-6 opacity-0 group-hover:opacity-100 transition-opacity delay-100 duration-500">
+                            Secluded coves &amp; Stone villas
+                        </p>
+<a class="inline-flex items-center gap-2 text-xs text-white font-mono uppercase border-b border-white pb-1 hover:text-accent hover:border-accent transition-colors" href="#">
+                            Explore Coast <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+</div>
+<div class="relative aspect-square md:aspect-auto md:h-[80vh] group overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center transition-all duration-1000 ease-in-out scale-100 group-hover:scale-105 saturate-100 contrast-100" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDEB79VbwEDuuK0AYajmNDbiFaUX0VSv7riQ-ME-OxYZkjBrkV75HrCr77E97En1cHLs04lZttNwoXwyVkW_Yh3jZfbdHfq7A-5qwUpxeCd7i5j2Aqu6Fs29KgBnabj30EYALdLP53KBjLP1IxtFHNZlNzuW8gOskODzMMpkTjhP9VxnmiAu6CDLo7Fp-xYeoXPcutVWDWzDy4Nkf93JKIFzWMmKm7FF-SK8QWbRs8toMdpYh-S2uQW3wtSLvQO-uzTJzhqjiDfhV0');"></div>
+<div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/0 transition-colors duration-500 mix-blend-multiply"></div>
+<div class="absolute top-6 left-6 z-20">
+<span class="font-mono text-[10px] bg-white text-primary px-3 py-1.5 uppercase font-bold tracking-widest shadow-md">Alpine Division</span>
+</div>
+<div class="absolute bottom-0 left-0 w-full p-8 md:p-12 z-20 translate-y-4 group-hover:translate-y-0 transition-transform duration-500 bg-gradient-to-t from-primary/80 to-transparent">
+<h3 class="font-serif text-5xl md:text-6xl text-white italic mb-2 drop-shadow-md">The Alps</h3>
+<p class="font-mono text-xs text-white/90 uppercase tracking-widest mb-6 opacity-0 group-hover:opacity-100 transition-opacity delay-100 duration-500">
+                            High passes &amp; Traditional Guesthouses
+                        </p>
+<a class="inline-flex items-center gap-2 text-xs text-white font-mono uppercase border-b border-white pb-1 hover:text-accent hover:border-accent transition-colors" href="#">
+                            Explore Mountains <span class="material-symbols-outlined text-sm">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 px-6 md:px-12 bg-primary relative overflow-hidden">
+<div class="absolute inset-0 opacity-10 mix-blend-overlay" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22 opacity=%221%22/%3E%3C/svg%3E');"></div>
+<div class="max-w-4xl mx-auto text-center relative z-10">
+<div class="inline-block mb-8 p-4 rounded-full border border-white/20 bg-white/5">
+<span class="material-symbols-outlined text-4xl text-accent font-light">sunny</span>
+</div>
+<h2 class="font-serif text-4xl md:text-6xl text-white mb-8">
+                    Ready for the Summer?
+                </h2>
+<p class="font-sans text-white/80 max-w-lg mx-auto mb-12 font-light leading-relaxed">
+                    We accept a limited number of clients per season to ensure the highest level of personal attention. Inquire below for availability for the upcoming summer season.
+                </p>
+<form class="max-w-md mx-auto flex border-b border-white/30 pb-2 mb-16 focus-within:border-accent transition-colors">
+<input class="bg-transparent border-none w-full text-white placeholder-white/50 focus:ring-0 font-mono text-sm uppercase tracking-widest px-0" placeholder="YOUR EMAIL ADDRESS" type="email"/>
+<button class="text-xs text-white uppercase tracking-widest font-bold hover:text-accent transition-colors whitespace-nowrap" type="submit">
+                        Check Availability
+                    </button>
+</form>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 border-t border-white/10 pt-12 text-left md:text-center">
+<div>
+<h4 class="font-mono text-[10px] text-accent uppercase tracking-widest mb-4">Contact</h4>
+<p class="text-sm text-white/90">concierge@arjes.com</p>
+</div>
+<div>
+<h4 class="font-mono text-[10px] text-accent uppercase tracking-widest mb-4">HQ</h4>
+<p class="text-sm text-white/90">Tirana, Albania</p>
+</div>
+<div>
+<h4 class="font-mono text-[10px] text-accent uppercase tracking-widest mb-4">Social</h4>
+<p class="text-sm text-white/90 hover:text-accent cursor-pointer">Instagram</p>
+</div>
+<div>
+<h4 class="font-mono text-[10px] text-accent uppercase tracking-widest mb-4">Legal</h4>
+<p class="text-sm text-white/90 hover:text-accent cursor-pointer">Privacy Policy</p>
+</div>
+</div>
+</div>
+<div class="mt-24 text-center">
+<span class="font-serif italic text-white/10 text-9xl leading-none select-none pointer-events-none">Arjes</span>
+</div>
+</section>
+</main>
+</body></html>

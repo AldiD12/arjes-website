@@ -1,66 +1,70 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client';
+import React, { useState, useEffect } from 'react';
+import { Nav } from '@/components/Nav';
+import { Hero } from '@/components/Hero';
+import { About } from '@/components/About';
+import { Journeys, HowItWorks } from '@/components/Journeys';
+import { Testimonials, MapSection } from '@/components/MapAndQuotes';
+import { FAQ } from '@/components/FAQ';
+import { Inquire } from '@/components/Inquire';
+import { Footer } from '@/components/Footer';
+import { TweaksPanel } from '@/components/TweaksPanel';
+
+const HERO_PHOTOS = [
+  { key: 'berat',        label: 'Berat, Mangalem quarter' },
+  { key: 'gjirokaster-pov',  label: 'Gjirokastër from the citadel' },
+  { key: 'zvernec',      label: 'Zvërnec Island causeway' },
+  { key: 'theth',        label: 'Waterfalls above Theth' },
+  { key: 'vjosa',        label: 'The Vjosa, Europe’s last wild river' },
+  { key: 'butrint-fortress', label: 'Butrint fortress' },
+  { key: 'karavasta',    label: 'Karavasta Lagoon' },
+].map(p => ({ ...p, src: `/photos/${p.key}.jpeg` }));
+
+const DEFAULTS = {
+  "heroPhoto": "theth"
+};
 
 export default function Home() {
+  const [editMode, setEditMode] = useState(false);
+  const [photoKey, setPhotoKey] = useState(DEFAULTS.heroPhoto);
+
+  useEffect(() => {
+    const onMsg = (e: MessageEvent) => {
+      const d = e.data || {};
+      if (d.type === '__activate_edit_mode') setEditMode(true);
+      if (d.type === '__deactivate_edit_mode') setEditMode(false);
+    };
+    window.addEventListener('message', onMsg);
+    
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+    }
+    
+    return () => window.removeEventListener('message', onMsg);
+  }, []);
+
+  const setPhoto = (key: string) => {
+    setPhotoKey(key);
+    if (window.parent && window.parent !== window) {
+      window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { heroPhoto: key } }, '*');
+    }
+  };
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+    <>
+      <Nav />
+      <main>
+        <Hero photoKey={photoKey} onPhotoChange={setPhoto} />
+        <About />
+        <Journeys />
+        <HowItWorks />
+        <Testimonials />
+        <MapSection />
+        <FAQ />
+        <Inquire />
       </main>
-    </div>
+      <Footer />
+      <TweaksPanel editMode={editMode} photoKey={photoKey} onPhotoChange={setPhoto} photos={HERO_PHOTOS} />
+    </>
   );
 }
