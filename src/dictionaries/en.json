@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "about": "About",
+    "journeys": "Journeys",
+    "howItWorks": "How it works",
+    "journal": "Journal",
+    "faq": "FAQ",
+    "planTrip": "Plan a trip"
+  },
+  "footer": {
+    "journeys": "Journeys",
+    "dayTrips": "Day trips",
+    "weekends": "Weekends",
+    "weekLong": "Week-long",
+    "fortnight": "Fortnight",
+    "custom": "Custom",
+    "theGuide": "The guide",
+    "about": "About",
+    "howItWorks": "How it works",
+    "faq": "FAQ",
+    "journal": "Journal",
+    "reachMe": "Reach me",
+    "credentials": "Credentials",
+    "licensedGuide": "Licensed National Tourism Guide",
+    "republic": "Republic of Albania",
+    "reg": "Reg. 2013",
+    "motto": "Small country · long conversations",
+    "route": "Tirana → wherever",
+    "privateGuide": "Private guide, Albania"
+  }
+}

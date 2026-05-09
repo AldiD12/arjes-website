@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "about": "Über mich",
+    "journeys": "Reisen",
+    "howItWorks": "Ablauf",
+    "journal": "Journal",
+    "faq": "FAQ",
+    "planTrip": "Reise planen"
+  },
+  "footer": {
+    "journeys": "Reisen",
+    "dayTrips": "Tagesausflüge",
+    "weekends": "Wochenenden",
+    "weekLong": "Eine Woche",
+    "fortnight": "Zwei Wochen",
+    "custom": "Individuell",
+    "theGuide": "Der Guide",
+    "about": "Über mich",
+    "howItWorks": "Ablauf",
+    "faq": "FAQ",
+    "journal": "Journal",
+    "reachMe": "Kontakt",
+    "credentials": "Qualifikationen",
+    "licensedGuide": "Lizensierter Nationaler Reiseleiter",
+    "republic": "Republik Albanien",
+    "reg": "Reg. 2013",
+    "motto": "Kleines Land · lange Gespräche",
+    "route": "Tirana → überall hin",
+    "privateGuide": "Privater Reiseleiter, Albanien"
+  }
+}

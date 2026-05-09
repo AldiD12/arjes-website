@@ -1,8 +1,11 @@
 'use client';
 import React, { useState, useEffect } from 'react';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 export function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const t = useTranslation();
+  
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
     onScroll();
@@ -17,15 +20,15 @@ export function Nav() {
         <span className="nav-wordmark">Arjes</span>
       </a>
       <div className="nav-links">
-        <a href="#about">About</a>
-        <a href="#journeys">Journeys</a>
-        <a href="#how">How it works</a>
-        <a href="#journal">Journal</a>
-        <a href="#faq">FAQ</a>
+        <a href="#about">{t.nav?.about || 'About'}</a>
+        <a href="#journeys">{t.nav?.journeys || 'Journeys'}</a>
+        <a href="#how">{t.nav?.howItWorks || 'How it works'}</a>
+        <a href="#journal">{t.nav?.journal || 'Journal'}</a>
+        <a href="#faq">{t.nav?.faq || 'FAQ'}</a>
         <a href="tel:+355698545440">+355 69 854 5440</a>
       </div>
       <a href="#inquire" className="nav-cta">
-        <span>Plan a trip</span>
+        <span>{t.nav?.planTrip || 'Plan a trip'}</span>
         <span className="nav-cta-arr">→</span>
       </a>
     </nav>
