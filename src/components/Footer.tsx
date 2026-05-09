@@ -28,9 +28,9 @@ export function Footer() {
           <div>
             <div className="mono footer-h">Reach me</div>
             <a href="mailto:arjes@arjes.al">arjes@arjes.al</a>
-            <a href="#">+355 · · · · · · ·</a>
+            <a href="tel:+355698545440">+355 69 854 5440</a>
             <a href="#">Instagram</a>
-            <a href="#">Signal / WhatsApp</a>
+            <a href="https://wa.me/355698545440">Signal / WhatsApp</a>
           </div>
           <div>
             <div className="mono footer-h">Credentials</div>

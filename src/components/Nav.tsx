@@ -22,6 +22,7 @@ export function Nav() {
         <a href="#how">How it works</a>
         <a href="#journal">Journal</a>
         <a href="#faq">FAQ</a>
+        <a href="tel:+355698545440">+355 69 854 5440</a>
       </div>
       <a href="#inquire" className="nav-cta">
         <span>Plan a trip</span>

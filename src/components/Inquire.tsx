@@ -95,8 +95,9 @@ export function Inquire() {
                 <span>{status === "submitting" ? "Sending..." : "Send"}</span>
                 <span className="btn-arr">→</span>
               </button>
-              <span className="mono inquire-note">
-                Or email me directly — <a href="mailto:arjes@arjes.al">arjes@arjes.al</a>
+              <span className="mono inquire-note" style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
+                <span>Or email me directly — <a href="mailto:arjes@arjes.al">arjes@arjes.al</a></span>
+                <span>Call / WhatsApp — <a href="tel:+355698545440">+355 69 854 5440</a></span>
               </span>
             </div>
           </form>
