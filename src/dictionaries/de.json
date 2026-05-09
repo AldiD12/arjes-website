@@ -27,5 +27,35 @@
     "motto": "Kleines Land · lange Gespräche",
     "route": "Tirana → überall hin",
     "privateGuide": "Privater Reiseleiter, Albanien"
+  },
+  "hero": {
+    "topL": "Lizensierter Guide · Tirana & albanische Gebiete",
+    "topR": "Anfragen für Sommer & Herbst 2026",
+    "intro": "— Privater Reiseleiter, seit 2013",
+    "titleL1": "Albanien,",
+    "titleL2": "ganz entspannt.",
+    "lede": "Ich bin Arjes. Ich zeige Reisenden das Albanien, mit dem ich aufgewachsen bin — von einem Nachmittag zu Fuß durch Tirana bis zu zwei Wochen durch das ganze Land. Kleine Gruppen. Keine Checklisten. Zeit zum Verweilen.",
+    "ctaJourneys": "Zu den Reisen",
+    "ctaInquire": "Eigene Reise planen",
+    "scroll": "Scrollen"
+  },
+  "about": {
+    "kicker": "— 02 · Lerne Arjes kennen",
+    "title1": "In Tirana geboren.",
+    "title2": "Zuhause",
+    "title3": " überall zwischen dem Ionischen Meer und den Alpen.",
+    "body1": "Ich arbeite seit über zehn Jahren hauptberuflich als Reiseleiter — lang genug, um zu wissen, welche Bäckerei in Gjirokastra vor sechs Uhr öffnet, welcher Hirte in Theth den besten Raki macht und welche Straße in die albanischen Alpen als erste schließt, wenn das Wetter umschlägt.",
+    "body2": "Die meisten meiner Kunden kommen für ein oder zwei Wochen. Manche nur für einen Nachmittag, um einfach mit jemandem durch Tirana zu spazieren, der ihnen erklären kann, was sie eigentlich sehen. Beide sind herzlich willkommen.",
+    "sign": "— A.",
+    "factLicensedL": "Lizensiert",
+    "factLicensedR": "Nationaler Reiseleiter, Republik Albanien",
+    "factLangL": "Sprachen",
+    "factLangR": "Englisch · Deutsch · Türkisch · Albanisch",
+    "factSinceL": "Tätig seit",
+    "factSinceR": "2013 — über ein Jahrzehnt Erfahrung",
+    "factBasedL": "Standort",
+    "factBasedR": "Tirana. Den Großteil der Saison unterwegs.",
+    "fig01": "Abb. 01",
+    "fig01Caption": "Mit Gästen oberhalb von Valbonë, Herbst '24"
   }
 }

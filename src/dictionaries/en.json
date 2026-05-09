@@ -27,5 +27,35 @@
     "motto": "Small country · long conversations",
     "route": "Tirana → wherever",
     "privateGuide": "Private guide, Albania"
+  },
+  "hero": {
+    "topL": "Licensed guide · Tirana & the Albanian territories",
+    "topR": "Taking inquiries for summer & autumn 2026",
+    "intro": "— Private guiding, since 2013",
+    "titleL1": "Albania,",
+    "titleL2": "at walking pace.",
+    "lede": "I'm Arjes. I show travellers the Albania I grew up with — from an afternoon on foot through Tirana to a fortnight across the country. Small groups. No clipboards. Time to sit down.",
+    "ctaJourneys": "See the journeys",
+    "ctaInquire": "Plan your own",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "kicker": "— 02 · Meet Arjes",
+    "title1": "Born in Tirana.",
+    "title2": "At home",
+    "title3": " everywhere between the Ionian and the Alps.",
+    "body1": "I've been guiding full-time for over ten years — long enough to know which bakery in Gjirokastër opens before six, which shepherd in Theth makes the best raki, and which road into the Albanian Alps closes first when the weather turns.",
+    "body2": "Most of my clients come for a week or two. Some come for an afternoon, just to walk through Tirana with someone who can tell them what they're actually looking at. Both are welcome.",
+    "sign": "— A.",
+    "factLicensedL": "Licensed",
+    "factLicensedR": "National Tourism Guide, Republic of Albania",
+    "factLangL": "Languages",
+    "factLangR": "English · German · Türkçe · Shqip",
+    "factSinceL": "Working since",
+    "factSinceR": "2013 — over a decade in the field",
+    "factBasedL": "Based in",
+    "factBasedR": "Tirana. On the road most of the season.",
+    "fig01": "Fig. 01",
+    "fig01Caption": "With guests above Valbonë, autumn '24"
   }
 }
