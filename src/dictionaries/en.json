@@ -57,5 +57,133 @@
     "factBasedR": "Tirana. On the road most of the season.",
     "fig01": "Fig. 01",
     "fig01Caption": "With guests above Valbonë, autumn '24"
+  },
+  "journeys": {
+    "kicker": "— 03 · Journeys",
+    "title1": "From an afternoon",
+    "title2": "to a fortnight.",
+    "sub": "Every trip is private — just you, your people, and me. No fixed departures, no coach groups. Below are the trips I'm asked for most; everything is adjustable.",
+    "fromText": "From",
+    "readItinerary": "Read the itinerary",
+    "list": [
+      {
+        "n": "01",
+        "kind": "Day",
+        "duration": "Half day · 4 hrs",
+        "title": "Tirana, on foot",
+        "blurb": "The capital as it actually lives — from the Old Bazaar through Blloku, with stops for byrek, a communist-era bunker and the best coffee in the city.",
+        "from": "€120 / group",
+        "photo": "/photos/durres-amphitheatre.jpeg",
+        "tag": "Most booked"
+      },
+      {
+        "n": "02",
+        "kind": "Weekend",
+        "duration": "3 days · 2 nights",
+        "title": "The South in a long weekend",
+        "blurb": "Gjirokastër, Butrint, and a slow drive down the Ionian coast. For travellers with limited time who want the three things Albania does best.",
+        "from": "€680 / person",
+        "photo": "/photos/gjirokaster-pov.jpeg",
+        "tag": null
+      },
+      {
+        "n": "03",
+        "kind": "Week",
+        "duration": "7 days · 6 nights",
+        "title": "Coast & Riviera",
+        "blurb": "Saranda to Vlorë along the old road — swimming at Gjipe and Jale, dinner in a village that still doesn't take cards, a night in Berat on the way home.",
+        "from": "€1,780 / person",
+        "photo": "/photos/zvernec.jpeg",
+        "tag": "Flagship"
+      },
+      {
+        "n": "04",
+        "kind": "Week",
+        "duration": "7 days · 6 nights",
+        "title": "The Accursed Mountains",
+        "blurb": "Tirana up through Shkodër, the ferry across Koman, and three days on foot between Valbonë and Theth. For travellers who want the hard version.",
+        "from": "€1,920 / person",
+        "photo": "/photos/theth.jpeg",
+        "tag": null
+      },
+      {
+        "n": "05",
+        "kind": "Fortnight",
+        "duration": "14 days · 13 nights",
+        "title": "Albania, end to end",
+        "blurb": "North to south, mountains to sea. The trip I take my own friends on. Fifteen places, six guesthouses, one long table.",
+        "from": "€3,450 / person",
+        "photo": "/photos/berat.jpeg",
+        "tag": "Signature"
+      },
+      {
+        "n": "06",
+        "kind": "Custom",
+        "duration": "Built to you",
+        "title": "Something else entirely",
+        "blurb": "Weddings, food-led trips, photography assignments, cross-border into Kosovo or North Macedonia. Write to me and we'll design it together.",
+        "from": "On request",
+        "photo": "/photos/prizren.jpeg",
+        "tag": null
+      }
+    ]
+  },
+  "howItWorks": {
+    "kicker": "— 04 · How it works",
+    "title1": "Four steps.",
+    "title2": "No middleman.",
+    "steps": [
+      {
+        "n": "01",
+        "t": "Write to me",
+        "d": "One sentence or three paragraphs — both fine. Tell me dates, group size, what you’re curious about. I answer within 24 hours."
+      },
+      {
+        "n": "02",
+        "t": "We sketch it together",
+        "d": "A short video call or long email thread. I send a rough day-by-day, photos of the places, honest trade-offs. We iterate until it feels right."
+      },
+      {
+        "n": "03",
+        "t": "Soft hold, then confirm",
+        "d": "I soft-hold guesthouses and drivers while you decide. A 20% deposit confirms; the rest is due four weeks out. No hidden fees, ever."
+      },
+      {
+        "n": "04",
+        "t": "I meet you at the airport",
+        "d": "From the moment you land, I’m your single point of contact. Driver, guesthouses, restaurant tables, emergencies at 2am — all me."
+      }
+    ]
+  },
+  "faq": {
+    "kicker": "— 07 · Asked & answered",
+    "title1": "The things",
+    "title2": "people ask first.",
+    "list": [
+      {
+        "q": "How far in advance should I book?",
+        "a": "For high summer (June–September), three to six months is comfortable. For the shoulder seasons (April–May, October), six weeks is usually enough. Last-minute trips sometimes work — write to me and I’ll tell you honestly."
+      },
+      {
+        "q": "What does \"private\" actually mean?",
+        "a": "It means the only other people on the trip are the people you bring with you. No strangers, no shared transfers, no fixed group sizes. Whether you’re solo or a group of twelve, the itinerary is yours."
+      },
+      {
+        "q": "What’s included in the price?",
+        "a": "My guiding, private driver and vehicle, all accommodation (in the guesthouses and small hotels I’ve vetted personally), breakfasts, and a handful of signature dinners. Flights, visas, travel insurance, and lunches on the road are not included."
+      },
+      {
+        "q": "Can I change the itinerary mid-trip?",
+        "a": "Yes. That’s half the point. If you fall in love with a village and want another night, or the weather turns and we need to flip two days around, we do. Everything I book has flexibility built in."
+      },
+      {
+        "q": "Do you work outside Albania?",
+        "a": "Regularly. Cross-border trips into Kosovo, North Macedonia, and occasionally Montenegro are popular — especially Prizren, Ohrid, and the Accursed Mountains, which straddle the border."
+      },
+      {
+        "q": "Is Albania safe? Easy? Comfortable?",
+        "a": "Safe: yes, genuinely. Easy: easier than you’d think, harder than Italy. Comfortable: the guesthouses I use are all en-suite, most with a view; the roads to the north are slow and winding. I won’t sugarcoat anything — ask me directly."
+      }
+    ]
   }
 }

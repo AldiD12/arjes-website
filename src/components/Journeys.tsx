@@ -2,6 +2,7 @@
 import React from 'react';
 import { useReveal } from '@/hooks/useReveal';
 import Image from 'next/image';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const JOURNEYS = [
   {
@@ -68,22 +69,22 @@ const JOURNEYS = [
 
 export function Journeys() {
   const [ref, shown] = useReveal();
+  const t = useTranslation();
+  const journeysList = t.journeys?.list || JOURNEYS;
   return (
     <section className="journeys" id="journeys" ref={ref}>
       <div className="journeys-head">
-        <div className="mono section-kicker">— 03 &nbsp;·&nbsp; Journeys</div>
+        <div className="mono section-kicker">{t.journeys?.kicker || '— 03 · Journeys'}</div>
         <h2 className="journeys-title display">
-          From an afternoon <em>to a fortnight.</em>
+          {t.journeys?.title1 || 'From an afternoon'} <em>{t.journeys?.title2 || 'to a fortnight.'}</em>
         </h2>
         <p className="journeys-sub">
-          Every trip is private — just you, your people, and me. No fixed departures,
-          no coach groups. Below are the trips I&apos;m asked for most; everything is
-          adjustable.
+          {t.journeys?.sub || 'Every trip is private — just you, your people, and me. No fixed departures, no coach groups. Below are the trips I\\'m asked for most; everything is adjustable.'}
         </p>
       </div>
 
       <ul className={`journeys-list ${shown ? 'is-shown' : ''}`}>
-        {JOURNEYS.map((j, i) => (
+        {journeysList.map((j: any, i: number) => (
           <li className="journey" key={j.n} style={{ transitionDelay: `${i * 60}ms` }}>
             <a href="#inquire" className="journey-link">
               <div className="journey-photo">
@@ -95,14 +96,14 @@ export function Journeys() {
                   <span className="mono journey-n">{j.n}</span>
                   <span className="mono journey-kind">{j.kind} · {j.duration}</span>
                 </div>
-                <span className="mono journey-from">From {j.from}</span>
+                <span className="mono journey-from">{t.journeys?.fromText || 'From'} {j.from}</span>
               </div>
               <h3 className="journey-title display"
                   dangerouslySetInnerHTML={{__html: j.title}} />
               <p className="journey-blurb"
                  dangerouslySetInnerHTML={{__html: j.blurb}} />
               <span className="journey-cta mono">
-                Read the itinerary <span className="arr">→</span>
+                {t.journeys?.readItinerary || 'Read the itinerary'} <span className="arr">→</span>
               </span>
             </a>
           </li>
@@ -113,20 +114,23 @@ export function Journeys() {
 }
 
 export function HowItWorks() {
+  const t = useTranslation();
   const steps = [
     { n: '01', t: 'Write to me', d: 'One sentence or three paragraphs — both fine. Tell me dates, group size, what you’re curious about. I answer within 24 hours.' },
     { n: '02', t: 'We sketch it together', d: 'A short video call or long email thread. I send a rough day-by-day, photos of the places, honest trade-offs. We iterate until it feels right.' },
     { n: '03', t: 'Soft hold, then confirm', d: 'I soft-hold guesthouses and drivers while you decide. A 20% deposit confirms; the rest is due four weeks out. No hidden fees, ever.' },
     { n: '04', t: 'I meet you at the airport', d: 'From the moment you land, I’m your single point of contact. Driver, guesthouses, restaurant tables, emergencies at 2am — all me.' },
   ];
+  const stepsList = t.howItWorks?.steps || steps;
+
   return (
     <section className="how" id="how">
       <div className="how-head">
-        <div className="mono section-kicker">— 04 &nbsp;·&nbsp; How it works</div>
-        <h2 className="how-title display">Four steps. <em>No middleman.</em></h2>
+        <div className="mono section-kicker">{t.howItWorks?.kicker || '— 04 · How it works'}</div>
+        <h2 className="how-title display">{t.howItWorks?.title1 || 'Four steps.'} <em>{t.howItWorks?.title2 || 'No middleman.'}</em></h2>
       </div>
       <ol className="how-steps">
-        {steps.map(s => (
+        {stepsList.map((s: any) => (
           <li className="how-step" key={s.n}>
             <div className="how-step-n mono">{s.n}</div>
             <h3 className="how-step-t display">{s.t}</h3>

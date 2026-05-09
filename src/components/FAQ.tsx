@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import { useTranslation } from '@/contexts/TranslationContext';
 
 const FAQS = [
   {
@@ -30,16 +31,18 @@ const FAQS = [
 
 export function FAQ() {
   const [open, setOpen] = useState<number>(0);
+  const t = useTranslation();
+  const faqList = t.faq?.list || FAQS;
   return (
     <section className="faq" id="faq">
       <div className="faq-head">
-        <div className="mono section-kicker">— 07 &nbsp;·&nbsp; Asked &amp; answered</div>
+        <div className="mono section-kicker">{t.faq?.kicker || '— 07 · Asked & answered'}</div>
         <h2 className="faq-title display">
-          The things <em>people ask first.</em>
+          {t.faq?.title1 || 'The things'} <em>{t.faq?.title2 || 'people ask first.'}</em>
         </h2>
       </div>
       <ul className="faq-list">
-        {FAQS.map((f, i) => (
+        {faqList.map((f: any, i: number) => (
           <li key={i} className={`faq-item ${open === i ? 'is-open' : ''}`}>
             <button className="faq-q" onClick={() => setOpen(open === i ? -1 : i)}>
               <span className="mono faq-n">{String(i + 1).padStart(2, '0')}</span>
