@@ -1,0 +1,48 @@
+.cta {
+  padding-bottom: 8rem;
+  text-align: center;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cta-button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1.25rem 2rem;
+  background: var(--ink);
+  color: white;
+  font-weight: 700;
+  font-family: var(--font-tech);
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: 2px solid var(--ink);
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.cta-button span:first-child {
+  margin-right: 0.5rem;
+}
+
+.cta-button .material-symbols-outlined {
+  font-size: 0.875rem;
+  transition: transform 0.3s ease;
+}
+
+.cta-button:hover .material-symbols-outlined {
+  transform: translateX(0.25rem);
+}
+
+@media (min-width: 768px) {
+  .cta-button {
+    width: auto;
+    padding: 1.25rem 2rem;
+  }
+}

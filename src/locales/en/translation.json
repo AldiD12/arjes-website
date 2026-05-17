@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "greeting": "Hi, I'm Arjes",
+    "tagline": "The Albania You Don't Know",
+    "description": "Not a tour. Not a script. Just authentic stories, hidden trails, and the Albania you won't find in guidebooks.",
+    "cta": "Start Your Journey"
+  },
+  "whyMe": {
+    "title": "Why Me?",
+    "subtitle": "Because Albania deserves more than a checklist",
+    "promise1": "I don't follow crowds—I find the places locals actually love",
+    "promise2": "Every trip is tailored to you, not a template",
+    "promise3": "I speak the language, know the culture, and open doors you can't find online"
+  },
+  "experiences": {
+    "title": "Experiences",
+    "subtitle": "Choose your story",
+    "coastal": {
+      "title": "Coastal Secrets",
+      "description": "Hidden beaches, cliffside villages, and the Ionian Sea at sunset"
+    },
+    "mountain": {
+      "title": "Mountain Soul",
+      "description": "Ancient trails, stone villages, and stories carved into the peaks"
+    },
+    "cultural": {
+      "title": "Cultural Immersion",
+      "description": "Family meals, local traditions, and the heartbeat of Albanian life"
+    },
+    "custom": {
+      "title": "Your Own Path",
+      "description": "Tell me what moves you, and I'll craft something unforgettable"
+    }
+  },
+  "testimonials": {
+    "title": "Stories from the Road",
+    "quote1": "Arjes didn't just show us Albania—he made us feel it. Every moment was real.",
+    "author1": "— Sarah & Tom, Germany",
+    "quote2": "We went off-script and found magic. Best decision of our trip.",
+    "author2": "— Elena, Italy",
+    "quote3": "Not a guide. A storyteller, a friend, a bridge to a place we'll never forget.",
+    "author3": "— James, UK"
+  },
+  "contact": {
+    "title": "Let's Create Your Story",
+    "subtitle": "Tell me where you want to go—or let me surprise you",
+    "cta": "Get in Touch"
+  },
+  "footer": {
+    "tagline": "Crafted with soul in Albania"
+  }
+}

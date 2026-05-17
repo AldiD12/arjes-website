@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "greeting": "Përshëndetje, unë jam Arjes",
+    "tagline": "Shqipëria që nuk e njeh",
+    "description": "Jo një tur. Jo një skenar. Vetëm histori autentike, shtigje të fshehura dhe Shqipëria që nuk do ta gjesh në guidat turistike.",
+    "cta": "Fillo Udhëtimin Tënd"
+  },
+  "whyMe": {
+    "title": "Pse unë?",
+    "subtitle": "Sepse Shqipëria meriton më shumë se një listë kontrolli",
+    "promise1": "Nuk ndjek turmat—gjej vendet që vendësit i duan vërtet",
+    "promise2": "Çdo udhëtim është i personalizuar për ty, jo një shabllone",
+    "promise3": "Flas gjuhën, njoh kulturën dhe hap dyert që nuk mund t'i gjesh online"
+  },
+  "experiences": {
+    "title": "Përvojat",
+    "subtitle": "Zgjidh historinë tënde",
+    "coastal": {
+      "title": "Sekretet Bregdetare",
+      "description": "Plazhe të fshehura, fshatra në shkëmbinj dhe Deti Jon në perëndim të diellit"
+    },
+    "mountain": {
+      "title": "Shpirti i Maleve",
+      "description": "Shtigje të lashta, fshatra guri dhe histori të gdhendura në majat"
+    },
+    "cultural": {
+      "title": "Zhytje Kulturore",
+      "description": "Dreka familjare, tradita lokale dhe rrahja e zemrës së jetës shqiptare"
+    },
+    "custom": {
+      "title": "Rruga Jote",
+      "description": "Më thuaj çfarë të lëviz dhe do të krijoj diçka të paharrueshme"
+    }
+  },
+  "testimonials": {
+    "title": "Histori nga Rruga",
+    "quote1": "Arjes nuk na tregoi vetëm Shqipërinë—na bëri ta ndiejmë. Çdo moment ishte i vërtetë.",
+    "author1": "— Sarah & Tom, Gjermani",
+    "quote2": "Dolëm nga skripti dhe gjetëm magji. Vendimi më i mirë i udhëtimit tonë.",
+    "author2": "— Elena, Itali",
+    "quote3": "Jo një udhëzues. Një tregimtar, një mik, një urë për një vend që nuk do ta harrojmë kurrë.",
+    "author3": "— James, UK"
+  },
+  "contact": {
+    "title": "Le të Krijojmë Historinë Tënde",
+    "subtitle": "Më thuaj ku dëshiron të shkosh—ose lermë të të befasoj",
+    "cta": "Kontakto"
+  },
+  "footer": {
+    "tagline": "Krijuar me shpirt në Shqipëri"
+  }
+}

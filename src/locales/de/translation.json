@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "greeting": "Hallo, ich bin Arjes",
+    "tagline": "Das Albanien, das du nicht kennst",
+    "description": "Keine Tour. Kein Skript. Nur authentische Geschichten, versteckte Pfade und das Albanien, das du in keinem Reiseführer findest.",
+    "cta": "Starte deine Reise"
+  },
+  "whyMe": {
+    "title": "Warum ich?",
+    "subtitle": "Weil Albanien mehr verdient als eine Checkliste",
+    "promise1": "Ich folge keinen Massen—ich finde die Orte, die Einheimische wirklich lieben",
+    "promise2": "Jede Reise ist auf dich zugeschnitten, keine Vorlage",
+    "promise3": "Ich spreche die Sprache, kenne die Kultur und öffne Türen, die du online nicht findest"
+  },
+  "experiences": {
+    "title": "Erlebnisse",
+    "subtitle": "Wähle deine Geschichte",
+    "coastal": {
+      "title": "Küstengeheimnisse",
+      "description": "Versteckte Strände, Klippendörfer und das Ionische Meer bei Sonnenuntergang"
+    },
+    "mountain": {
+      "title": "Bergseele",
+      "description": "Alte Pfade, Steindörfer und Geschichten in die Gipfel gemeißelt"
+    },
+    "cultural": {
+      "title": "Kulturelles Eintauchen",
+      "description": "Familienessen, lokale Traditionen und der Herzschlag des albanischen Lebens"
+    },
+    "custom": {
+      "title": "Dein eigener Weg",
+      "description": "Sag mir, was dich bewegt, und ich erschaffe etwas Unvergessliches"
+    }
+  },
+  "testimonials": {
+    "title": "Geschichten von der Straße",
+    "quote1": "Arjes hat uns nicht nur Albanien gezeigt—er ließ uns es fühlen. Jeder Moment war echt.",
+    "author1": "— Sarah & Tom, Deutschland",
+    "quote2": "Wir sind vom Skript abgewichen und haben Magie gefunden. Beste Entscheidung unserer Reise.",
+    "author2": "— Elena, Italien",
+    "quote3": "Kein Guide. Ein Geschichtenerzähler, ein Freund, eine Brücke zu einem Ort, den wir nie vergessen werden.",
+    "author3": "— James, UK"
+  },
+  "contact": {
+    "title": "Lass uns deine Geschichte erschaffen",
+    "subtitle": "Sag mir, wohin du willst—oder lass dich überraschen",
+    "cta": "Kontakt aufnehmen"
+  },
+  "footer": {
+    "tagline": "Mit Seele in Albanien gefertigt"
+  }
+}

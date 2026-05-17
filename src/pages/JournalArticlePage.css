@@ -1,0 +1,154 @@
+.journal-article-page {
+  min-height: 100vh;
+  background: var(--cream);
+  padding-top: 80px;
+}
+
+.article-not-found {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+  text-align: center;
+}
+
+.article-container {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 2rem 6rem;
+}
+
+.back-link {
+  display: inline-flex;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--black);
+  opacity: 0.5;
+  margin-bottom: 2rem;
+  transition: opacity 0.3s;
+}
+
+.back-link:hover {
+  opacity: 1;
+}
+
+.article-header {
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.article-meta {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.5;
+  margin-bottom: 1.5rem;
+}
+
+.meta-dot {
+  margin: 0 0.5rem;
+}
+
+.article-title {
+  font-family: var(--font-masthead);
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.article-subtitle {
+  font-size: 1.2rem;
+  opacity: 0.6;
+  line-height: 1.6;
+}
+
+.article-body {
+  margin-bottom: 4rem;
+}
+
+.article-section {
+  margin-bottom: 2.5rem;
+}
+
+.section-heading {
+  font-family: var(--font-masthead);
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.section-text {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  opacity: 0.8;
+}
+
+.article-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 3rem;
+}
+
+.article-cta {
+  background: var(--black);
+  color: white;
+  padding: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.article-cta h3 {
+  font-family: var(--font-masthead);
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.article-cta p {
+  opacity: 0.7;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+  display: inline-flex;
+  padding: 0.75rem 2rem;
+  background: white;
+  color: var(--black);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: opacity 0.3s;
+}
+
+.cta-button:hover {
+  opacity: 0.8;
+}
+
+.article-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author-name {
+  font-family: var(--font-masthead);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.author-title {
+  font-size: 0.85rem;
+  opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+  .article-container {
+    padding: 2rem 1.25rem 4rem;
+  }
+
+  .article-cta {
+    padding: 2rem 1.5rem;
+  }
+}

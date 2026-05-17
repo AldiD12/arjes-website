@@ -1,0 +1,23 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 6rem;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 32rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    gap: 6rem;
+  }
+}
