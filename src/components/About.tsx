@@ -33,8 +33,8 @@ export function About() {
               <dd>{t.about?.factLangR || 'English · German · Türkçe · Shqip'}</dd>
             </div>
             <div>
-              <dt className="mono">{t.about?.factSinceL || 'Working since'}</dt>
-              <dd>{t.about?.factSinceR || '2013 — over a decade in the field'}</dd>
+              <dt className="mono">{t.about?.factSinceL || 'Experience'}</dt>
+              <dd>{t.about?.factSinceR || 'Over a decade in the field'}</dd>
             </div>
             <div>
               <dt className="mono">{t.about?.factBasedL || 'Based in'}</dt>

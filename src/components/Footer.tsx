@@ -30,7 +30,6 @@ export function Footer() {
           </div>
           <div>
             <div className="mono footer-h">{t.footer?.reachMe || 'Reach me'}</div>
-            <a href="mailto:arjes@arjes.al">arjes@arjes.al</a>
             <a href="tel:+355698545440">+355 69 854 5440</a>
             <a href="#">Instagram</a>
             <a href="https://wa.me/355698545440">Signal / WhatsApp</a>
@@ -39,7 +38,6 @@ export function Footer() {
             <div className="mono footer-h">{t.footer?.credentials || 'Credentials'}</div>
             <span className="footer-cred">{t.footer?.licensedGuide || 'Licensed National Tourism Guide'}</span>
             <span className="footer-cred">{t.footer?.republic || 'Republic of Albania'}</span>
-            <span className="footer-cred">{t.footer?.reg || 'Reg. 2013'}</span>
           </div>
         </div>
       </div>

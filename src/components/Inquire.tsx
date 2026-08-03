@@ -88,7 +88,7 @@ export function Inquire() {
             </label>
             
             {status === "error" && (
-              <p style={{ color: '#ff6b6b', marginBottom: '1rem' }}>{t.inquire?.errorMsg || 'Oops! There was a problem submitting your form. Please try again or email me directly.'}</p>
+              <p style={{ color: '#ff6b6b', marginBottom: '1rem' }}>{t.inquire?.errorMsg || 'Oops! There was a problem submitting your form. Please try again or call me directly.'}</p>
             )}
 
             <div className="inquire-submit">
@@ -97,7 +97,6 @@ export function Inquire() {
                 <span className="btn-arr">→</span>
               </button>
               <span className="mono inquire-note" style={{ display: 'flex', flexDirection: 'column', gap: '0.25rem' }}>
-                <span>{t.inquire?.orEmail || 'Or email me directly —'} <a href="mailto:arjes@arjes.al">arjes@arjes.al</a></span>
                 <span>{t.inquire?.orCall || 'Call / WhatsApp —'} <a href="tel:+355698545440">+355 69 854 5440</a></span>
               </span>
             </div>

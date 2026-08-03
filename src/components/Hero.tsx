@@ -42,7 +42,7 @@ export function Hero({ photoKey = 'theth', onPhotoChange }: { photoKey?: string,
 
       {/* Main title block */}
       <div className="hero-body">
-        <div className="hero-intro mono">{t.hero?.intro || '— Private guiding, since 2013'}</div>
+        <div className="hero-intro mono">{t.hero?.intro || '— Private guiding in Albania'}</div>
         <h1 className="hero-title">
           <span className="hero-title-l1">{t.hero?.titleL1 || 'Albania,'}</span>
           <span className="hero-title-l2"><em>{t.hero?.titleL2 || 'at walking pace.'}</em></span>

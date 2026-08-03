@@ -23,7 +23,6 @@
     "credentials": "Qualifikationen",
     "licensedGuide": "Lizensierter Nationaler Reiseleiter",
     "republic": "Republik Albanien",
-    "reg": "Reg. 2013",
     "motto": "Kleines Land · lange Gespräche",
     "route": "Tirana → überall hin",
     "privateGuide": "Privater Reiseleiter, Albanien"
@@ -31,7 +30,7 @@
   "hero": {
     "topL": "Lizensierter Guide · Tirana & albanische Gebiete",
     "topR": "Anfragen für Sommer & Herbst 2026",
-    "intro": "— Privater Reiseleiter, seit 2013",
+    "intro": "— Privater Reiseleiter in Albanien",
     "titleL1": "Albanien,",
     "titleL2": "ganz entspannt.",
     "lede": "Ich bin Arjes. Ich zeige Reisenden das Albanien, mit dem ich aufgewachsen bin — von einem Nachmittag zu Fuß durch Tirana bis zu zwei Wochen durch das ganze Land. Kleine Gruppen. Keine Checklisten. Zeit zum Verweilen.",
@@ -51,8 +50,8 @@
     "factLicensedR": "Nationaler Reiseleiter, Republik Albanien",
     "factLangL": "Sprachen",
     "factLangR": "Englisch · Deutsch · Türkisch · Albanisch",
-    "factSinceL": "Tätig seit",
-    "factSinceR": "2013 — über ein Jahrzehnt Erfahrung",
+    "factSinceL": "Erfahrung",
+    "factSinceR": "Über ein Jahrzehnt im Feld",
     "factBasedL": "Standort",
     "factBasedR": "Tirana. Den Großteil der Saison unterwegs.",
     "fig01": "Abb. 01",
@@ -230,10 +229,9 @@
     "groupSizePlaceholder": "2 Erwachsene, 1 Teenager",
     "message": "Erzählen Sie ein wenig",
     "messagePlaceholder": "Ein Satz reicht schon. Ein Ort, den Sie auf einem Foto gesehen haben, etwas, das Sie vermeiden möchten, Ihr Lieblingsessen.",
-    "errorMsg": "Hoppla! Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut oder schreiben Sie mir direkt.",
+    "errorMsg": "Hoppla! Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut oder rufen Sie mich direkt an.",
     "sending": "Wird gesendet...",
     "send": "Senden",
-    "orEmail": "Oder schreiben Sie mir direkt —",
     "orCall": "Anruf / WhatsApp —"
   }
 }

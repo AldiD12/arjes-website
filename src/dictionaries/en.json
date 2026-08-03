@@ -23,7 +23,6 @@
     "credentials": "Credentials",
     "licensedGuide": "Licensed National Tourism Guide",
     "republic": "Republic of Albania",
-    "reg": "Reg. 2013",
     "motto": "Small country · long conversations",
     "route": "Tirana → wherever",
     "privateGuide": "Private guide, Albania"
@@ -31,7 +30,7 @@
   "hero": {
     "topL": "Licensed guide · Tirana & the Albanian territories",
     "topR": "Taking inquiries for summer & autumn 2026",
-    "intro": "— Private guiding, since 2013",
+    "intro": "— Private guiding in Albania",
     "titleL1": "Albania,",
     "titleL2": "at walking pace.",
     "lede": "I'm Arjes. I show travellers the Albania I grew up with — from an afternoon on foot through Tirana to a fortnight across the country. Small groups. No clipboards. Time to sit down.",
@@ -51,8 +50,8 @@
     "factLicensedR": "National Tourism Guide, Republic of Albania",
     "factLangL": "Languages",
     "factLangR": "English · German · Türkçe · Shqip",
-    "factSinceL": "Working since",
-    "factSinceR": "2013 — over a decade in the field",
+    "factSinceL": "Experience",
+    "factSinceR": "Over a decade in the field",
     "factBasedL": "Based in",
     "factBasedR": "Tirana. On the road most of the season.",
     "fig01": "Fig. 01",
@@ -230,10 +229,9 @@
     "groupSizePlaceholder": "2 adults, 1 teenager",
     "message": "Tell me a little",
     "messagePlaceholder": "Even one sentence is enough. Somewhere you've seen a photo of, something you want to avoid, a food you love.",
-    "errorMsg": "Oops! There was a problem submitting your form. Please try again or email me directly.",
+    "errorMsg": "Oops! There was a problem submitting your form. Please try again or call me directly.",
     "sending": "Sending...",
     "send": "Send",
-    "orEmail": "Or email me directly —",
     "orCall": "Call / WhatsApp —"
   }
 }
