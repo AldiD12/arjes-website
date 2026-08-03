@@ -14,7 +14,7 @@ function getLocale(request: NextRequest) {
   return defaultLocale;
 }
 
-export function middleware(request: NextRequest) {
+export function proxy(request: NextRequest) {
   const { pathname } = request.nextUrl;
   
   // Check if there is any supported locale in the pathname
@@ -35,7 +35,8 @@ export function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    // Skip all internal paths (_next) and public folder files
-    '/((?!_next|photos|uploads|screenshots|favicon.ico|api).*)',
+    // Skip internal paths (_next), public folder files, and the crawler
+    // metadata routes — these must never be locale-prefixed.
+    '/((?!_next|photos|uploads|screenshots|favicon.ico|robots.txt|sitemap.xml|api).*)',
   ],
 };
