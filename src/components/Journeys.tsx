@@ -4,7 +4,25 @@ import { useReveal } from '@/hooks/useReveal';
 import Image from 'next/image';
 import { useTranslation } from '@/contexts/TranslationContext';
 
-const JOURNEYS = [
+type Journey = {
+  n: string;
+  kind: string;
+  duration: string;
+  title: string;
+  blurb: string;
+  from: string;
+  photo: string;
+  tag: string | null;
+  href?: string;
+};
+
+type HowStep = {
+  n: string;
+  t: string;
+  d: string;
+};
+
+const JOURNEYS: Journey[] = [
   {
     n: '01',
     kind: 'Day',
@@ -70,7 +88,7 @@ const JOURNEYS = [
 export function Journeys() {
   const [ref, shown] = useReveal();
   const t = useTranslation();
-  const journeysList = t.journeys?.list || JOURNEYS;
+  const journeysList: Journey[] = t.journeys?.list || JOURNEYS;
   return (
     <section className="journeys" id="journeys" ref={ref}>
       <div className="journeys-head">
@@ -84,11 +102,11 @@ export function Journeys() {
       </div>
 
       <ul className={`journeys-list ${shown ? 'is-shown' : ''}`}>
-        {journeysList.map((j: any, i: number) => (
+        {journeysList.map((j, i) => (
           <li className="journey" key={j.n} style={{ transitionDelay: `${i * 60}ms` }}>
-            <a href="#inquire" className="journey-link">
+            <a href={j.href || '#inquire'} className="journey-link">
               <div className="journey-photo">
-                <img src={j.photo} alt="" />
+                <Image src={j.photo} alt="" fill sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw" />
                 {j.tag && <span className="journey-tag mono">{j.tag}</span>}
               </div>
               <div className="journey-meta">
@@ -96,7 +114,7 @@ export function Journeys() {
                   <span className="mono journey-n">{j.n}</span>
                   <span className="mono journey-kind">{j.kind} · {j.duration}</span>
                 </div>
-                <span className="mono journey-from">{t.journeys?.fromText || 'From'} {j.from}</span>
+                <span className="mono journey-from">{t.journeys?.fromText || 'Pricing'} · {j.from}</span>
               </div>
               <h3 className="journey-title display"
                   dangerouslySetInnerHTML={{__html: j.title}} />
@@ -121,7 +139,7 @@ export function HowItWorks() {
     { n: '03', t: 'Soft hold, then confirm', d: 'I soft-hold guesthouses and drivers while you decide. A 20% deposit confirms; the rest is due four weeks out. No hidden fees, ever.' },
     { n: '04', t: 'I meet you at the airport', d: 'From the moment you land, I’m your single point of contact. Driver, guesthouses, restaurant tables, emergencies at 2am — all me.' },
   ];
-  const stepsList = t.howItWorks?.steps || steps;
+  const stepsList: HowStep[] = t.howItWorks?.steps || steps;
 
   return (
     <section className="how" id="how">
@@ -130,7 +148,7 @@ export function HowItWorks() {
         <h2 className="how-title display">{t.howItWorks?.title1 || 'Four steps.'} <em>{t.howItWorks?.title2 || 'No middleman.'}</em></h2>
       </div>
       <ol className="how-steps">
-        {stepsList.map((s: any) => (
+        {stepsList.map((s) => (
           <li className="how-step" key={s.n}>
             <div className="how-step-n mono">{s.n}</div>
             <h3 className="how-step-t display">{s.t}</h3>

@@ -1,6 +1,6 @@
 {
   "nav": {
-    "about": "Über mich",
+    "about": "Über uns",
     "journeys": "Reisen",
     "howItWorks": "Ablauf",
     "journal": "Journal",
@@ -14,26 +14,26 @@
     "weekLong": "Eine Woche",
     "fortnight": "Zwei Wochen",
     "custom": "Individuell",
-    "theGuide": "Der Guide",
-    "about": "Über mich",
+    "theGuide": "Unser Ansatz",
+    "about": "Über uns",
     "howItWorks": "Ablauf",
     "faq": "FAQ",
     "journal": "Journal",
     "reachMe": "Kontakt",
     "credentials": "Qualifikationen",
-    "licensedGuide": "Lizensierter Nationaler Reiseleiter",
+    "licensedGuide": "Lizenzierte nationale Reiseleiterin",
     "republic": "Republik Albanien",
     "motto": "Kleines Land · lange Gespräche",
     "route": "Tirana → überall hin",
-    "privateGuide": "Privater Reiseleiter, Albanien"
+    "privateGuide": "Private Reisen, vor Ort in Albanien geplant"
   },
   "hero": {
-    "topL": "Lizensierter Guide · Tirana & albanische Gebiete",
-    "topR": "Anfragen für Sommer & Herbst 2026",
-    "intro": "— Privater Reiseleiter in Albanien",
+    "topL": "Vor Ort geplant · Privat geführt · Albanien",
+    "topR": "Individuelle Reisen für Paare, Familien & kleine Gruppen",
+    "intro": "— Private Reisen, vor Ort in Albanien geplant",
     "titleL1": "Albanien,",
     "titleL2": "ganz entspannt.",
-    "lede": "Ich bin Arjes. Ich zeige Reisenden das Albanien, mit dem ich aufgewachsen bin — von einem Nachmittag zu Fuß durch Tirana bis zu zwei Wochen durch das ganze Land. Kleine Gruppen. Keine Checklisten. Zeit zum Verweilen.",
+    "lede": "Ich bin Arjes. Ich plane private Reisen durch das Albanien, in dem ich aufgewachsen bin — von ein paar Stunden in Tirana bis zu mehrtägigen Rundreisen mit vertrauten lokalen Guides, Fahrern und Mietwagenpartnern. Persönlich, flexibel und passend zu Ihnen.",
     "ctaJourneys": "Zu den Reisen",
     "ctaInquire": "Eigene Reise planen",
     "scroll": "Scrollen"
@@ -41,19 +41,19 @@
   "about": {
     "kicker": "— 02 · Lerne Arjes kennen",
     "title1": "In Tirana geboren.",
-    "title2": "Zuhause",
-    "title3": " überall zwischen dem Ionischen Meer und den Alpen.",
-    "body1": "Ich arbeite seit über zehn Jahren hauptberuflich als Reiseleiter — lang genug, um zu wissen, welche Bäckerei in Gjirokastra vor sechs Uhr öffnet, welcher Hirte in Theth den besten Raki macht und welche Straße in die albanischen Alpen als erste schließt, wenn das Wetter umschlägt.",
-    "body2": "Die meisten meiner Kunden kommen für ein oder zwei Wochen. Manche nur für einen Nachmittag, um einfach mit jemandem durch Tirana zu spazieren, der ihnen erklären kann, was sie eigentlich sehen. Beide sind herzlich willkommen.",
+    "title2": "Ihre Ansprechpartnerin vor Ort",
+    "title3": " von der ersten Idee bis zur Reise.",
+    "body1": "Seit mehr als zehn Jahren führe ich Gäste durch Albanien und reise selbst durch das Land. Ich kenne nicht nur die Orte, sondern auch die richtigen Menschen: lizenzierte Guides, sorgfältige Fahrer, familiengeführte Unterkünfte und lokale Partner, denen ich vertraue.",
+    "body2": "Ausgewählte Stadtführungen in Tirana, Nachmittage und Wochenendreisen begleite ich persönlich. Wenn Ihr Termin, Ihre Route oder Ihre Sprache jemand anderen erfordert, vermittle ich eine vertraute Kollegin oder einen vertrauten Kollegen und bleibe Ihre Ansprechpartnerin. So bleibt die Reise persönlich, ohne von meinem Kalender abhängig zu sein.",
     "sign": "— A.",
-    "factLicensedL": "Lizensiert",
+    "factLicensedL": "Lizenziert",
     "factLicensedR": "Nationaler Reiseleiter, Republik Albanien",
     "factLangL": "Sprachen",
     "factLangR": "Englisch · Deutsch · Türkisch · Albanisch",
     "factSinceL": "Erfahrung",
     "factSinceR": "Über ein Jahrzehnt im Feld",
     "factBasedL": "Standort",
-    "factBasedR": "Tirana. Den Großteil der Saison unterwegs.",
+    "factBasedR": "Tirana, mit vertrauten Partnern in ganz Albanien.",
     "fig01": "Abb. 01",
     "fig01Caption": "Mit Gästen oberhalb von Valbonë, Herbst '24"
   },
@@ -61,27 +61,27 @@
     "kicker": "— 03 · Reisen",
     "title1": "Vom Nachmittag",
     "title2": "bis zu zwei Wochen.",
-    "sub": "Jede Reise ist privat — nur Sie, Ihre Begleitung und ich. Keine festen Abfahrten, keine Busgruppen. Hier sind die Reisen, nach denen ich am meisten gefragt werde; alles ist anpassbar.",
-    "fromText": "Ab",
-    "readItinerary": "Reiseverlauf ansehen",
+    "sub": "Jede Reise gehört nur Ihrer Gruppe. Arjes begleitet ausgewählte Touren persönlich; vertraute lizenzierte Kolleginnen und Kollegen übernehmen andere Termine, Sprachen und Regionen. Wählen Sie einen Ausgangspunkt — die Details passen wir an Sie an.",
+    "fromText": "Preis",
+    "readItinerary": "Diese Reise anfragen",
     "list": [
       {
         "n": "01",
         "kind": "Tag",
-        "duration": "Halbtags · 4 Std.",
+        "duration": "2–4 Stunden",
         "title": "Tirana, zu Fuß",
         "blurb": "Die Hauptstadt, wie sie wirklich lebt — vom Alten Basar bis Blloku, mit Stopps für Byrek, einem Bunker aus der Kommunistenzeit und dem besten Kaffee der Stadt.",
-        "from": "€120 / Gruppe",
+        "from": "nach Gruppengröße kalkuliert",
         "photo": "/photos/durres-amphitheatre.jpeg",
         "tag": "Am meisten gebucht"
       },
       {
         "n": "02",
         "kind": "Wochenende",
-        "duration": "3 Tage · 2 Nächte",
-        "title": "Der Süden am langen Wochenende",
-        "blurb": "Gjirokastra, Butrint und eine entspannte Fahrt an der ionischen Küste. Für Reisende mit wenig Zeit, die das Beste erleben wollen, was Albanien zu bieten hat.",
-        "from": "€680 / Person",
+        "duration": "1 Tag · flexible Route",
+        "title": "Privater Tagesausflug ab Tirana",
+        "blurb": "Berat, Kruja, Durrës, Apollonia oder das Hinterland — mit lizenziertem Guide, privatem Fahrer oder beidem. Wir empfehlen die Route passend zu Ihren Interessen und zur Jahreszeit.",
+        "from": "individuell kalkuliert",
         "photo": "/photos/gjirokaster-pov.jpeg",
         "tag": null
       },
@@ -89,29 +89,30 @@
         "n": "03",
         "kind": "Woche",
         "duration": "7 Tage · 6 Nächte",
-        "title": "Küste & Riviera",
-        "blurb": "Von Saranda nach Vlora über die alte Straße — Schwimmen in Gjipe und Jale, Abendessen in einem Dorf, das noch keine Karten akzeptiert, eine Nacht in Berat auf dem Heimweg.",
-        "from": "€1.780 / Person",
+        "title": "Sieben Tage, auf Ihre Art",
+        "blurb": "Eine private erste Rundreise durch Albanien: Tirana, Berat, Gjirokastra und die Küste, angepasst an Ihr Tempo. Komplett geführt, als Selbstfahrerreise oder als Kombination.",
+        "from": "nach Reiseart kalkuliert",
         "photo": "/photos/zvernec.jpeg",
-        "tag": "Bestseller"
+        "tag": "Bestseller",
+        "href": "/de/albanien-rundreise"
       },
       {
         "n": "04",
         "kind": "Woche",
         "duration": "7 Tage · 6 Nächte",
-        "title": "Die verwunschenen Berge",
-        "blurb": "Tirana hoch über Shkodra, die Fähre über den Koman-Stausee und drei Tage zu Fuß zwischen Valbona und Theth. Für Reisende, die die abenteuerliche Version suchen.",
-        "from": "€1.920 / Person",
+        "title": "Geführter Start, selbstständig weiter",
+        "blurb": "Beginnen Sie mit Guide und Fahrer, übernehmen Sie später einen Mietwagen in Korça, Përmet oder einem vereinbarten Ort und reisen Sie auf einer für Sie geplanten Route weiter.",
+        "from": "passend zur Fahrzeugübergabe kalkuliert",
         "photo": "/photos/theth.jpeg",
         "tag": null
       },
       {
         "n": "05",
         "kind": "Zwei Wochen",
-        "duration": "14 Tage · 13 Nächte",
+        "duration": "10–14 Tage",
         "title": "Albanien, komplett",
-        "blurb": "Von Nord nach Süd, von den Bergen ans Meer. Die Reise, auf die ich meine eigenen Freunde mitnehme. Fünfzehn Orte, sechs Gästehäuser, ein langer Tisch.",
-        "from": "€3.450 / Person",
+        "blurb": "Eine langsamere Reise von den nördlichen Bergen bis zur südlichen Küste — mit der richtigen Mischung aus Reiseleitung, privatem Transport, lokalen Unterkünften und Zeit für sich.",
+        "from": "individuell kalkuliert",
         "photo": "/photos/berat.jpeg",
         "tag": "Signature"
       },
@@ -120,8 +121,8 @@
         "kind": "Individuell",
         "duration": "Für Sie erstellt",
         "title": "Etwas ganz anderes",
-        "blurb": "Hochzeiten, kulinarische Reisen, Fotografie-Aufträge, grenzüberschreitend in den Kosovo oder nach Nordmazedonien. Schreiben Sie mir und wir planen es gemeinsam.",
-        "from": "Auf Anfrage",
+        "blurb": "Familienreisen in die alte Heimat, kleine Berufsgruppen, Kulinarikreisen, grenzüberschreitende Routen und besondere Logistik. Sagen Sie uns, was funktionieren muss — wir planen darum herum.",
+        "from": "nach Ihren Wünschen kalkuliert",
         "photo": "/photos/prizren.jpeg",
         "tag": null
       }
@@ -130,27 +131,27 @@
   "howItWorks": {
     "kicker": "— 04 · Ablauf",
     "title1": "Vier Schritte.",
-    "title2": "Ohne Vermittler.",
+    "title2": "Ein Kontakt vor Ort.",
     "steps": [
       {
         "n": "01",
-        "t": "Schreiben Sie mir",
-        "d": "Ein Satz oder drei Absätze — beides ist gut. Nennen Sie mir Daten, Gruppengröße, was Sie interessiert. Ich antworte innerhalb von 24 Stunden."
+        "t": "Schreiben Sie uns",
+        "d": "Ein Satz oder drei Absätze — beides ist gut. Nennen Sie uns Reisedaten, Gruppengröße und wobei Sie Hilfe wünschen. Wir antworten möglichst innerhalb eines Werktags."
       },
       {
         "n": "02",
-        "t": "Wir planen gemeinsam",
-        "d": "Ein kurzes Videogespräch oder ein langer E-Mail-Austausch. Ich schicke einen groben Tagesablauf, Fotos der Orte, ehrliche Abwägungen. Wir passen alles an, bis es passt."
+        "t": "Wir gestalten die passende Reise",
+        "d": "Wir empfehlen Route und Reiseart: Arjes persönlich, wenn möglich, ein vertrauter Guide, privater Fahrer, Selbstfahrerplanung oder eine Kombination daraus."
       },
       {
         "n": "03",
-        "t": "Reservierung & Bestätigung",
-        "d": "Ich reserviere Gästehäuser und Fahrer vorläufig, während Sie sich entscheiden. Eine Anzahlung von 20 % bestätigt die Buchung; der Rest ist vier Wochen vorher fällig. Niemals versteckte Gebühren."
+        "t": "Lernen Sie Ihr lokales Team kennen",
+        "d": "Vor der Bestätigung wissen Sie, was enthalten ist, wer Sie begleitet oder fährt, was Sie an uns zahlen und welche Partner Sie direkt bezahlen. Kein überraschender Wechsel."
       },
       {
         "n": "04",
-        "t": "Ich hole Sie am Flughafen ab",
-        "d": "Ab dem Moment Ihrer Landung bin ich Ihr einziger Ansprechpartner. Fahrer, Gästehäuser, Restauranttische, Notfälle um 2 Uhr morgens — alles läuft über mich."
+        "t": "Reisen Sie mit Unterstützung vor Ort",
+        "d": "Flughafentransfer, Guide, Fahrer, Mietwagenübergabe und Hotelempfehlungen lassen sich passend zu Ihrer Reise koordinieren. Sie behalten einen Ansprechpartner vor Ort."
       }
     ]
   },
@@ -169,15 +170,15 @@
       },
       {
         "q": "Was ist im Preis inbegriffen?",
-        "a": "Meine Reiseleitung, privater Fahrer und Fahrzeug, alle Unterkünfte (in von mir persönlich geprüften Gästehäusern und kleinen Hotels), Frühstück und einige ausgewählte Abendessen. Flüge, Visa, Reiseversicherung und Mittagessen unterwegs sind nicht inbegriffen."
+        "a": "Das hängt von der Reise ab. Wir können Reiseleitung, privaten Fahrer, Flughafentransfers und Mietwagenübergaben koordinieren sowie Hotels oder Gästehäuser empfehlen. Im Angebot steht klar, was enthalten ist und welche Partner Sie direkt bezahlen."
       },
       {
         "q": "Kann ich die Reiseroute während der Reise ändern?",
-        "a": "Ja. Das ist der halbe Sinn der Sache. Wenn Sie sich in ein Dorf verlieben und eine weitere Nacht bleiben möchten oder das Wetter umschlägt und wir zwei Tage tauschen müssen, tun wir das. Bei allem, was ich buche, ist Flexibilität eingebaut."
+        "a": "Meistens ja. Privatreisen geben uns Spielraum, aber Hotel-, Fahrzeug- und Guideverfügbarkeit können spontane Änderungen begrenzen. Diese Abwägungen erklären wir vor der Bestätigung."
       },
       {
-        "q": "Arbeiten Sie auch außerhalb Albaniens?",
-        "a": "Regelmäßig. Grenzüberschreitende Reisen in den Kosovo, nach Nordmazedonien und gelegentlich Montenegro sind beliebt — besonders Prizren, Ohrid und die verwunschenen Berge, die sich über die Grenze erstrecken."
+        "q": "Begleitet Arjes meine Reise persönlich?",
+        "a": "Arjes begleitet ausgewählte Stadtführungen in Tirana, Nachmittage und Wochenendreisen persönlich. Für andere Termine, Sprachen und längere Routen arbeitet sie mit vertrauten lizenzierten Kolleginnen und Kollegen. Vor der Buchung erfahren Sie, wer vorgesehen ist."
       },
       {
         "q": "Ist Albanien sicher? Einfach? Komfortabel?",
@@ -213,11 +214,11 @@
   },
   "inquire": {
     "kicker": "— 08 · Lass uns reden",
-    "title1": "Erzählen Sie mir,",
+    "title1": "Erzählen Sie uns,",
     "title2": "was Sie interessiert.",
-    "lede": "Ich beantworte jede Nachricht persönlich, meistens innerhalb eines Tages. Keine Formulare, die länger sind als dieses hier.",
+    "lede": "Nennen Sie uns Ihre Reisedaten und wobei Sie Hilfe wünschen. Wir antworten möglichst innerhalb eines Werktags mit dem nächsten konkreten Schritt.",
     "successTitle": "Nachricht erfolgreich gesendet!",
-    "successBody": "Danke für Ihre Anfrage. Ich melde mich so schnell wie möglich zurück.",
+    "successBody": "Danke für Ihre Anfrage. Wir melden uns so schnell wie möglich zurück.",
     "sendAnother": "Weitere Nachricht senden",
     "name": "Name",
     "namePlaceholder": "Ihr Name",
@@ -228,7 +229,7 @@
     "groupSize": "Gruppengröße",
     "groupSizePlaceholder": "2 Erwachsene, 1 Teenager",
     "message": "Erzählen Sie ein wenig",
-    "messagePlaceholder": "Ein Satz reicht schon. Ein Ort, den Sie auf einem Foto gesehen haben, etwas, das Sie vermeiden möchten, Ihr Lieblingsessen.",
+    "messagePlaceholder": "Sagen Sie uns, was Sie brauchen: Guide, Fahrer, Selbstfahrerplanung, Hotelempfehlungen oder eine komplette Privatreise. Ein Satz reicht schon.",
     "errorMsg": "Hoppla! Es gab ein Problem beim Senden. Bitte versuchen Sie es erneut oder rufen Sie mich direkt an.",
     "sending": "Wird gesendet...",
     "send": "Senden",

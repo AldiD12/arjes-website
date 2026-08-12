@@ -1,6 +1,6 @@
 {
   "nav": {
-    "about": "About",
+    "about": "About us",
     "journeys": "Journeys",
     "howItWorks": "How it works",
     "journal": "Journal",
@@ -14,8 +14,8 @@
     "weekLong": "Week-long",
     "fortnight": "Fortnight",
     "custom": "Custom",
-    "theGuide": "The guide",
-    "about": "About",
+    "theGuide": "Our approach",
+    "about": "About us",
     "howItWorks": "How it works",
     "faq": "FAQ",
     "journal": "Journal",
@@ -25,15 +25,15 @@
     "republic": "Republic of Albania",
     "motto": "Small country · long conversations",
     "route": "Tirana → wherever",
-    "privateGuide": "Private guide, Albania"
+    "privateGuide": "Private journeys, planned in Albania"
   },
   "hero": {
-    "topL": "Licensed guide · Tirana & the Albanian territories",
-    "topR": "Taking inquiries for summer & autumn 2026",
-    "intro": "— Private guiding in Albania",
+    "topL": "Locally planned · Privately guided · Albania",
+    "topR": "Custom journeys for couples, families & small groups",
+    "intro": "— Private journeys, planned in Albania",
     "titleL1": "Albania,",
     "titleL2": "at walking pace.",
-    "lede": "I'm Arjes. I show travellers the Albania I grew up with — from an afternoon on foot through Tirana to a fortnight across the country. Small groups. No clipboards. Time to sit down.",
+    "lede": "I'm Arjes. I plan private journeys through the Albania I grew up with — from a few hours in Tirana to a multi-day trip with trusted local guides, drivers and rental-car partners. Personal, flexible and built around you.",
     "ctaJourneys": "See the journeys",
     "ctaInquire": "Plan your own",
     "scroll": "Scroll"
@@ -41,10 +41,10 @@
   "about": {
     "kicker": "— 02 · Meet Arjes",
     "title1": "Born in Tirana.",
-    "title2": "At home",
-    "title3": " everywhere between the Ionian and the Alps.",
-    "body1": "I've been guiding full-time for over ten years — long enough to know which bakery in Gjirokastër opens before six, which shepherd in Theth makes the best raki, and which road into the Albanian Alps closes first when the weather turns.",
-    "body2": "Most of my clients come for a week or two. Some come for an afternoon, just to walk through Tirana with someone who can tell them what they're actually looking at. Both are welcome.",
+    "title2": "Your local point of contact",
+    "title3": " from first idea to the road ahead.",
+    "body1": "I have spent more than a decade guiding and travelling across Albania. I know the places, but just as importantly I know the people: licensed guides, careful drivers, family-run stays and local partners I trust.",
+    "body2": "I personally lead selected Tirana tours, afternoons and weekend journeys. When your dates, route or language need someone else, I match you with a trusted colleague and remain your point of contact. The trip stays personal without being limited by my calendar.",
     "sign": "— A.",
     "factLicensedL": "Licensed",
     "factLicensedR": "National Tourism Guide, Republic of Albania",
@@ -53,7 +53,7 @@
     "factSinceL": "Experience",
     "factSinceR": "Over a decade in the field",
     "factBasedL": "Based in",
-    "factBasedR": "Tirana. On the road most of the season.",
+    "factBasedR": "Tirana, with trusted partners across Albania.",
     "fig01": "Fig. 01",
     "fig01Caption": "With guests above Valbonë, autumn '24"
   },
@@ -61,27 +61,27 @@
     "kicker": "— 03 · Journeys",
     "title1": "From an afternoon",
     "title2": "to a fortnight.",
-    "sub": "Every trip is private — just you, your people, and me. No fixed departures, no coach groups. Below are the trips I'm asked for most; everything is adjustable.",
-    "fromText": "From",
-    "readItinerary": "Read the itinerary",
+    "sub": "Every journey is private to your group. Arjes leads selected tours personally; trusted licensed colleagues cover other dates, languages and regions. Choose a starting point below and we will shape the details around you.",
+    "fromText": "Pricing",
+    "readItinerary": "Ask about this journey",
     "list": [
       {
         "n": "01",
         "kind": "Day",
-        "duration": "Half day · 4 hrs",
+        "duration": "2–4 hours",
         "title": "Tirana, on foot",
         "blurb": "The capital as it actually lives — from the Old Bazaar through Blloku, with stops for byrek, a communist-era bunker and the best coffee in the city.",
-        "from": "€120 / group",
+        "from": "Quoted by group size",
         "photo": "/photos/durres-amphitheatre.jpeg",
         "tag": "Most booked"
       },
       {
         "n": "02",
         "kind": "Weekend",
-        "duration": "3 days · 2 nights",
-        "title": "The South in a long weekend",
-        "blurb": "Gjirokastër, Butrint, and a slow drive down the Ionian coast. For travellers with limited time who want the three things Albania does best.",
-        "from": "€680 / person",
+        "duration": "1 day · flexible route",
+        "title": "A private day beyond Tirana",
+        "blurb": "Berat, Krujë, Durrës, Apollonia or the countryside — with a licensed guide, a private driver, or both. We recommend the route that fits your interests and the season.",
+        "from": "Tailored quote",
         "photo": "/photos/gjirokaster-pov.jpeg",
         "tag": null
       },
@@ -89,9 +89,9 @@
         "n": "03",
         "kind": "Week",
         "duration": "7 days · 6 nights",
-        "title": "Coast & Riviera",
-        "blurb": "Saranda to Vlorë along the old road — swimming at Gjipe and Jale, dinner in a village that still doesn't take cards, a night in Berat on the way home.",
-        "from": "€1,780 / person",
+        "title": "Seven days, your way",
+        "blurb": "A private first journey through Albania: Tirana, Berat, Gjirokastër and the coast, adjusted to your pace. Travel fully guided, self-drive, or combine the two.",
+        "from": "Quoted by travel style",
         "photo": "/photos/zvernec.jpeg",
         "tag": "Flagship"
       },
@@ -99,19 +99,19 @@
         "n": "04",
         "kind": "Week",
         "duration": "7 days · 6 nights",
-        "title": "The Accursed Mountains",
-        "blurb": "Tirana up through Shkodër, the ferry across Koman, and three days on foot between Valbonë and Theth. For travellers who want the hard version.",
-        "from": "€1,920 / person",
+        "title": "Guided start, independent finish",
+        "blurb": "Begin with a guide and driver, then collect a rental car in Korçë, Përmet or another agreed town and continue independently with a route designed for you.",
+        "from": "Quoted around your handover",
         "photo": "/photos/theth.jpeg",
         "tag": null
       },
       {
         "n": "05",
         "kind": "Fortnight",
-        "duration": "14 days · 13 nights",
+        "duration": "10–14 days",
         "title": "Albania, end to end",
-        "blurb": "North to south, mountains to sea. The trip I take my own friends on. Fifteen places, six guesthouses, one long table.",
-        "from": "€3,450 / person",
+        "blurb": "A slower journey from the northern mountains to the southern coast, with the right mix of guiding, private transport, local stays and time on your own.",
+        "from": "Tailored quote",
         "photo": "/photos/berat.jpeg",
         "tag": "Signature"
       },
@@ -120,37 +120,38 @@
         "kind": "Custom",
         "duration": "Built to you",
         "title": "Something else entirely",
-        "blurb": "Weddings, food-led trips, photography assignments, cross-border into Kosovo or North Macedonia. Write to me and we'll design it together.",
-        "from": "On request",
+        "blurb": "Family homecomings, small professional groups, food-led journeys, cross-border routes and unusual logistics. Tell us what needs to work and we will design around it.",
+        "from": "Quoted to your brief",
         "photo": "/photos/prizren.jpeg",
-        "tag": null
+        "tag": null,
+        "href": "/en/private-albania-tours"
       }
     ]
   },
   "howItWorks": {
     "kicker": "— 04 · How it works",
     "title1": "Four steps.",
-    "title2": "No middleman.",
+    "title2": "One local contact.",
     "steps": [
       {
         "n": "01",
-        "t": "Write to me",
-        "d": "One sentence or three paragraphs — both fine. Tell me dates, group size, what you’re curious about. I answer within 24 hours."
+        "t": "Write to us",
+        "d": "One sentence or three paragraphs — both are fine. Tell us your dates, group size and what kind of help you need. We aim to answer within one working day."
       },
       {
         "n": "02",
-        "t": "We sketch it together",
-        "d": "A short video call or long email thread. I send a rough day-by-day, photos of the places, honest trade-offs. We iterate until it feels right."
+        "t": "We shape the right journey",
+        "d": "We recommend a route and the right travel style: Arjes personally where available, another trusted guide, a private driver, self-drive planning, or a mixture."
       },
       {
         "n": "03",
-        "t": "Soft hold, then confirm",
-        "d": "I soft-hold guesthouses and drivers while you decide. A 20% deposit confirms; the rest is due four weeks out. No hidden fees, ever."
+        "t": "Meet your local team",
+        "d": "Before you confirm, you know what is included, who will guide or drive, what you pay us and what you pay directly to local partners. No surprise substitutions."
       },
       {
         "n": "04",
-        "t": "I meet you at the airport",
-        "d": "From the moment you land, I’m your single point of contact. Driver, guesthouses, restaurant tables, emergencies at 2am — all me."
+        "t": "Travel with local support",
+        "d": "Airport pickup, guide, driver, rental-car handover and hotel recommendations can all be coordinated around your plan. You keep one local point of contact throughout."
       }
     ]
   },
@@ -169,15 +170,15 @@
       },
       {
         "q": "What’s included in the price?",
-        "a": "My guiding, private driver and vehicle, all accommodation (in the guesthouses and small hotels I’ve vetted personally), breakfasts, and a handful of signature dinners. Flights, visas, travel insurance, and lunches on the road are not included."
+        "a": "It depends on the journey. We can arrange guiding, a private driver, airport transfers and rental-car handovers, and recommend hotels or guesthouses. Your proposal states clearly what is included and which suppliers you pay directly."
       },
       {
         "q": "Can I change the itinerary mid-trip?",
-        "a": "Yes. That’s half the point. If you fall in love with a village and want another night, or the weather turns and we need to flip two days around, we do. Everything I book has flexibility built in."
+        "a": "Usually, yes. Private travel gives us room to adapt, although hotel, vehicle and guide availability can limit last-minute changes. We explain those trade-offs before you confirm."
       },
       {
-        "q": "Do you work outside Albania?",
-        "a": "Regularly. Cross-border trips into Kosovo, North Macedonia, and occasionally Montenegro are popular — especially Prizren, Ohrid, and the Accursed Mountains, which straddle the border."
+        "q": "Will Arjes guide my trip personally?",
+        "a": "Arjes personally leads selected Tirana tours, afternoons and weekend journeys. For other dates, languages and longer routes, she works with trusted licensed colleagues and tells you who is proposed before you book."
       },
       {
         "q": "Is Albania safe? Easy? Comfortable?",
@@ -213,11 +214,11 @@
   },
   "inquire": {
     "kicker": "— 08 · Start a conversation",
-    "title1": "Tell me what",
+    "title1": "Tell us what",
     "title2": "you're curious about.",
-    "lede": "I answer every message myself, usually within a day. No forms longer than this one.",
+    "lede": "Tell us the dates and what you would like help with. We aim to reply within one working day with the next practical step.",
     "successTitle": "Message sent successfully!",
-    "successBody": "Thanks for reaching out. I'll get back to you as soon as possible.",
+    "successBody": "Thanks for reaching out. We'll get back to you as soon as possible.",
     "sendAnother": "Send another message",
     "name": "Name",
     "namePlaceholder": "Your name",
@@ -228,7 +229,7 @@
     "groupSize": "Group size",
     "groupSizePlaceholder": "2 adults, 1 teenager",
     "message": "Tell me a little",
-    "messagePlaceholder": "Even one sentence is enough. Somewhere you've seen a photo of, something you want to avoid, a food you love.",
+    "messagePlaceholder": "Tell us what you need: a guide, driver, self-drive plan, hotel advice, or a complete private journey. Even one sentence is enough.",
     "errorMsg": "Oops! There was a problem submitting your form. Please try again or call me directly.",
     "sending": "Sending...",
     "send": "Send",

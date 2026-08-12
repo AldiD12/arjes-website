@@ -2,8 +2,9 @@
 import React from 'react';
 import { useTranslation } from '@/contexts/TranslationContext';
 
-export function Footer() {
+export function Footer({ homeHref = '' }: { homeHref?: string }) {
   const t = useTranslation();
+  const homeSection = (section: string) => `${homeHref}#${section}`;
 
   return (
     <footer className="footer">
@@ -15,24 +16,22 @@ export function Footer() {
         <div className="footer-cols">
           <div>
             <div className="mono footer-h">{t.footer?.journeys || 'Journeys'}</div>
-            <a href="#journeys">{t.footer?.dayTrips || 'Day trips'}</a>
-            <a href="#journeys">{t.footer?.weekends || 'Weekends'}</a>
-            <a href="#journeys">{t.footer?.weekLong || 'Week-long'}</a>
-            <a href="#journeys">{t.footer?.fortnight || 'Fortnight'}</a>
-            <a href="#journeys">{t.footer?.custom || 'Custom'}</a>
+            <a href={homeSection('journeys')}>{t.footer?.dayTrips || 'Day trips'}</a>
+            <a href={homeSection('journeys')}>{t.footer?.weekends || 'Weekends'}</a>
+            <a href={homeSection('journeys')}>{t.footer?.weekLong || 'Week-long'}</a>
+            <a href={homeSection('journeys')}>{t.footer?.fortnight || 'Fortnight'}</a>
+            <a href={homeSection('journeys')}>{t.footer?.custom || 'Custom'}</a>
           </div>
           <div>
             <div className="mono footer-h">{t.footer?.theGuide || 'The guide'}</div>
-            <a href="#about">{t.footer?.about || 'About'}</a>
-            <a href="#how">{t.footer?.howItWorks || 'How it works'}</a>
-            <a href="#faq">{t.footer?.faq || 'FAQ'}</a>
-            <a href="#journal">{t.footer?.journal || 'Journal'}</a>
+            <a href={homeSection('about')}>{t.footer?.about || 'About'}</a>
+            <a href={homeSection('how')}>{t.footer?.howItWorks || 'How it works'}</a>
+            <a href={homeSection('faq')}>{t.footer?.faq || 'FAQ'}</a>
           </div>
           <div>
             <div className="mono footer-h">{t.footer?.reachMe || 'Reach me'}</div>
             <a href="tel:+355698545440">+355 69 854 5440</a>
-            <a href="#">Instagram</a>
-            <a href="https://wa.me/355698545440">Signal / WhatsApp</a>
+            <a href="https://wa.me/355698545440">WhatsApp</a>
           </div>
           <div>
             <div className="mono footer-h">{t.footer?.credentials || 'Credentials'}</div>

@@ -18,15 +18,15 @@ export const languageAlternates = {
 
 export const seo: Record<Locale, { title: string; description: string; ogLocale: string }> = {
   en: {
-    title: 'Arjes — Private Guide in Albania | Tirana, Berat & Beyond',
+    title: 'Arjes — Private Albania Tours, Guides & Custom Journeys',
     description:
-      'Licensed private guide in Albania. Walking tours of Tirana, multi-day journeys across the country, small groups and unhurried days. Taking inquiries for summer and autumn 2026.',
+      'Private Albania journeys planned locally with trusted licensed guides, drivers and rental-car partners. Tirana tours, self-drive planning and custom multi-day trips.',
     ogLocale: 'en_GB',
   },
   de: {
-    title: 'Arjes — Deutschsprachiger Reiseleiter in Albanien | Tirana & mehr',
+    title: 'Arjes — Private Albanien-Rundreisen, Guides & Fahrer',
     description:
-      'Lizenzierter privater Reiseleiter in Albanien mit deutschsprachigen Touren. Stadtführungen durch Tirana, mehrtägige Reisen durch das Land, kleine Gruppen. Anfragen für Sommer und Herbst 2026.',
+      'Private Albanien-Rundreisen, vor Ort geplant mit lizenzierten Guides, Fahrern und Mietwagenpartnern. Stadtführungen in Tirana, Selbstfahrerplanung und individuelle Reisen.',
     ogLocale: 'de_DE',
   },
 };
