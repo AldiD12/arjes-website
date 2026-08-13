@@ -1,4 +1,5 @@
 import type { MetadataRoute } from 'next';
+import { seoLandingPages } from '@/lib/seo-pages';
 import { SITE_URL, languageAlternates, locales, defaultLocale } from '@/lib/site';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -10,6 +11,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: 'monthly',
     priority: locale === defaultLocale ? 1 : 0.9,
     alternates: { languages: languageAlternates },
+  }));
+
+  const newLandingPages: MetadataRoute.Sitemap = seoLandingPages.map((page) => ({
+    url: `${SITE_URL}/${page.locale}/${page.slug}`,
+    lastModified,
+    changeFrequency: 'monthly',
+    priority: 0.85,
   }));
 
   return [
@@ -44,5 +52,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.85,
     },
+    ...newLandingPages,
   ];
 }

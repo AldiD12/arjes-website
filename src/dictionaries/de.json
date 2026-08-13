@@ -73,7 +73,8 @@
         "blurb": "Die Hauptstadt, wie sie wirklich lebt — vom Alten Basar bis Blloku, mit Stopps für Byrek, einem Bunker aus der Kommunistenzeit und dem besten Kaffee der Stadt.",
         "from": "nach Gruppengröße kalkuliert",
         "photo": "/photos/durres-amphitheatre.jpeg",
-        "tag": "Am meisten gebucht"
+        "tag": "Am meisten gebucht",
+        "href": "/de/stadtfuehrung-tirana-deutsch"
       },
       {
         "n": "02",
@@ -83,7 +84,8 @@
         "blurb": "Berat, Kruja, Durrës, Apollonia oder das Hinterland — mit lizenziertem Guide, privatem Fahrer oder beidem. Wir empfehlen die Route passend zu Ihren Interessen und zur Jahreszeit.",
         "from": "individuell kalkuliert",
         "photo": "/photos/gjirokaster-pov.jpeg",
-        "tag": null
+        "tag": null,
+        "href": "/de/albanien-rundreise-mit-fahrer"
       },
       {
         "n": "03",
@@ -104,7 +106,8 @@
         "blurb": "Beginnen Sie mit Guide und Fahrer, übernehmen Sie später einen Mietwagen in Korça, Përmet oder einem vereinbarten Ort und reisen Sie auf einer für Sie geplanten Route weiter.",
         "from": "passend zur Fahrzeugübergabe kalkuliert",
         "photo": "/photos/theth.jpeg",
-        "tag": null
+        "tag": null,
+        "href": "/de/albanien-mietwagen-rundreise"
       },
       {
         "n": "05",
@@ -114,7 +117,8 @@
         "blurb": "Eine langsamere Reise von den nördlichen Bergen bis zur südlichen Küste — mit der richtigen Mischung aus Reiseleitung, privatem Transport, lokalen Unterkünften und Zeit für sich.",
         "from": "individuell kalkuliert",
         "photo": "/photos/berat.jpeg",
-        "tag": "Signature"
+        "tag": "Signature",
+        "href": "/de/albanien-rundreise-14-tage"
       },
       {
         "n": "06",
@@ -124,7 +128,8 @@
         "blurb": "Familienreisen in die alte Heimat, kleine Berufsgruppen, Kulinarikreisen, grenzüberschreitende Routen und besondere Logistik. Sagen Sie uns, was funktionieren muss — wir planen darum herum.",
         "from": "nach Ihren Wünschen kalkuliert",
         "photo": "/photos/prizren.jpeg",
-        "tag": null
+        "tag": null,
+        "href": "/de/albanien-mit-kindern"
       }
     ]
   },

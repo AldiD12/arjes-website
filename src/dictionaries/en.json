@@ -73,7 +73,8 @@
         "blurb": "The capital as it actually lives — from the Old Bazaar through Blloku, with stops for byrek, a communist-era bunker and the best coffee in the city.",
         "from": "Quoted by group size",
         "photo": "/photos/durres-amphitheatre.jpeg",
-        "tag": "Most booked"
+        "tag": "Most booked",
+        "href": "/en/tirana-private-tour"
       },
       {
         "n": "02",
@@ -83,7 +84,8 @@
         "blurb": "Berat, Krujë, Durrës, Apollonia or the countryside — with a licensed guide, a private driver, or both. We recommend the route that fits your interests and the season.",
         "from": "Tailored quote",
         "photo": "/photos/gjirokaster-pov.jpeg",
-        "tag": null
+        "tag": null,
+        "href": "/en/albania-private-driver-tour"
       },
       {
         "n": "03",
@@ -93,7 +95,8 @@
         "blurb": "A private first journey through Albania: Tirana, Berat, Gjirokastër and the coast, adjusted to your pace. Travel fully guided, self-drive, or combine the two.",
         "from": "Quoted by travel style",
         "photo": "/photos/zvernec.jpeg",
-        "tag": "Flagship"
+        "tag": "Flagship",
+        "href": "/en/albania-itinerary-10-days"
       },
       {
         "n": "04",
@@ -103,7 +106,8 @@
         "blurb": "Begin with a guide and driver, then collect a rental car in Korçë, Përmet or another agreed town and continue independently with a route designed for you.",
         "from": "Quoted around your handover",
         "photo": "/photos/theth.jpeg",
-        "tag": null
+        "tag": null,
+        "href": "/en/albania-self-drive-tour"
       },
       {
         "n": "05",
@@ -113,7 +117,8 @@
         "blurb": "A slower journey from the northern mountains to the southern coast, with the right mix of guiding, private transport, local stays and time on your own.",
         "from": "Tailored quote",
         "photo": "/photos/berat.jpeg",
-        "tag": "Signature"
+        "tag": "Signature",
+        "href": "/en/albania-itinerary-14-days"
       },
       {
         "n": "06",
